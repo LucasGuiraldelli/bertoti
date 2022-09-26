@@ -1,9 +1,9 @@
 package model.util;
 
-public class Notificadores {
+public class Message {
 
-	public static void mandarNotificacao(String placa, String marca, Double km) {
-		System.out.println(placa + marca + km);
+	public static void mandarNotificacao(String nome, String placa, String tempo_restante) {
+		System.out.println(nome + placa + tempo_restante);
 		
 	}
 
