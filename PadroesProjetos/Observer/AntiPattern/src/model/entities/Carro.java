@@ -1,59 +1,59 @@
 package model.entities;
 
-import model.util.Notificadores;
+import model.util.Message;
 
-public class Carro {
+public class Entregador {
 
+	private String nome;
 	private String placa;
-	private String marca;
-	private Double km;
+	private String tempo_restante;
 	
-	public Carro() {
+	public Entregador() {
 		
 	}
-	public Carro(String placa, String marca, Double km) {
+	public Entregador(String nome, String placa, String tempo_restante) {
 		super();
+		this.nome = nome;
 		this.placa = placa;
-		this.marca = marca;
-		this.km = km;
+		this.tempo_restante = tempo_restante;
 	}
 
 
-	public String getPlaca() {
+	public String getnome() {
+		return nome;
+	}
+
+
+	public void setnome(String nome) {
+		this.nome = nome;
+	}
+
+
+	public String getplaca() {
 		return placa;
 	}
 
 
-	public void setPlaca(String placa) {
+	public void setplaca(String placa) {
 		this.placa = placa;
 	}
 
 
-	public String getMarca() {
-		return marca;
+	public String gettempo_restante() {
+		return tempo_restante;
 	}
 
 
-	public void setMarca(String marca) {
-		this.marca = marca;
-	}
-
-
-	public Double getKm() {
-		return km;
-	}
-
-
-	public void setKm(Double km) {
-		this.km = km;
+	public void settempo_restante(String tempo_restante) {
+		this.tempo_restante = tempo_restante;
 	}
 	
-	public void setInfo(String placa, String marca, Double km) {
+	public void setInfo(String nome, String placa, String tempo_restante) {
+		this.nome = nome;
 		this.placa = placa;
-		this.marca = marca;
-		this.km = km;
+		this.tempo_restante = tempo_restante;
 		
-		Notificadores.mandarNotificacao(placa, marca, km);
+		Notificadores.mandarNotificacao(nome, placa, tempo_restante);
 		
 		
 	}
@@ -61,7 +61,7 @@ public class Carro {
 
 	@Override
 	public String toString() {
-		return "Carro [placa=" + placa + ", marca=" + marca + ", km=" + km + "]";
+		return "\nnome do entregador: " + nome + "\nPlaca: " + placa + "\nTempo restante: " + tempo_restante;
 	}
 	
 	
