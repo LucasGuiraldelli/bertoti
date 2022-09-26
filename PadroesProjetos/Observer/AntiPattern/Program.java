@@ -1,6 +1,4 @@
-package application;
-
-import model.entities.Entregador;
+import Entregador;
 
 public class Program {
 
