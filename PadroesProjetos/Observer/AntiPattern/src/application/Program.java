@@ -1,12 +1,12 @@
 package application;
 
-import model.entities.Carro;
+import model.entities.Entregador;
 
 public class Program {
 
 	public static void main(String[] args) {
-		Carro car = new Carro();
-		car.setInfo("aaa1234", "vw", 55.75);
+		Entregador e = new Entregador();
+		e.setInfo("Douglas", "AEW123", "30 min");
 
 	}
 
