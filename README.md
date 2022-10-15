@@ -1,2 +1,2 @@
 # bertoti
-Projetos das matérias da lenda Giuliano Bertoti
+Projetos das matérias do Giuliano Bertoti
