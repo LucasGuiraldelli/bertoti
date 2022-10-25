@@ -4,10 +4,10 @@
 
 Olá, seja bem-vindo. Sou o Lucas Guiraldelli, estudante de Banco de Dados pela FATEC Prof. Jessen Vidal. 
 
-Tenho 19 anos e trabalho como estagiário em data science. <br/>
+Tenho 19 anos e trabalho como estagiário em data science. 
+<br>
 
-<img src=" "  height="400" width="300"/> 
-
+![image](https://user-images.githubusercontent.com/64923139/197658220-a1e1a80a-8c97-44dc-9c65-589788f2841f.png)
 
 
 # Projeto 3: 1º Semestre de 2022
