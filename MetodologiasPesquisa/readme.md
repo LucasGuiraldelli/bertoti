@@ -19,27 +19,32 @@ Tenho 19 anos e trabalho como estagiário em data science. <br/>
  
  
 ### Contribuições Pessoais:
-Durante o desevolvimento do projeto, tive principal atuação no Back-end. Neste campo fui responsável pela estruturação do banco de dados, desde a modelagem dos campos necessários no modelo MER (Modelo entidade Relacionamento) garantindo a organização das informações e a fácil acessibilidade para que a aplicação mantivesse a troca de dados sem falha. <br>
+Durante o desevolvimento do projeto, tive principal atuação no Back-end. Neste campo fui responsável pela estruturação do banco de dados, desde a modelagem dos campos necessários no modelo MER (Modelo entidade Relacionamento) garantindo a organização das informações e a fácil acessibilidade para que a aplicação mantivesse a troca de dados sem falha. <br><br>
 Para a implementação dessas estruturas foi necessário o aprendizado de uma nova tecnologia, o **Hibernate**. Que teve sua principal utilização na criação dos objetos do banco de dados a partir da aplicação.
+<br>
 <br>
  <ul>
   <li>Hibernate é uma ferramenta para mapeamento objeto/relacional para ambientes Java. 
       O termo ORM vem de "mapeamento de objeto relacional" </li>
  </ul>
-
+<br>
 <img src="https://media.discordapp.net/attachments/913534866686103573/965045708572983336/modelagem.jpeg" width=/>
 <em>* imagem 3: Modelo Entidade Relacionamento (MER)</em>
 <br>
 <br>
 <br>
 
-Para o desevolvimento dessa ideia foi necessário aprender uma nova tecnologia, o Hibernate, que teve sua principal função na criação dos objetos no banco. Também atuei na camada de troca de dados a partir dos inputs no Front-end, utilizando requisições HTTP e métodos em JavaScript.
- 
+Também durante esse projeto atuei na camada de troca de dados, utilizando JavaScript para:
+<br>
  <ul>
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item</li>
-  <li>Fourth item</li>
+  <li>cadastro de promoções;</li>
+  <li>Definições de endpoints;</li>
+  <li>Verificação de promoções cadastradas;</li>
+  <li>Requisições HTTP.</li>
 </ul>
+<br>
+<br>
+Durante a segunda sprint tivemos que fazer uma reestruturação na equipe, onde tive participação fundamental na organização da equipe. Assumindo uma nova função como PO (Product Owner) da equipe, pude colocar em prática as ferramentas das metodologias ágeis aprendidas em aula, seguindo o SCRUM. 
+
 
 
