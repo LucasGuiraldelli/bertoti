@@ -16,6 +16,12 @@ Tenho 19 anos e trabalho como estagiário em data science. <br/>
 
 <br><p align="left">
  <a href="https://www.midall.com.br/"><img src="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png" width="110"/></a>
+<br>
+<br>
+### Objetivo do projeto:
+  A ideia era criar um motor de regras com uma interface onde as regras das promoções possam ser cadastradas e aplicadas no momento que os itens forem para o carrinho de compras.
+ 
+tecnologias utilizadas: CSS | Docker | Hibernate | HTML | Java | JavaScript | Postgres | Quarkus
  
  
 ### Contribuições Pessoais:
