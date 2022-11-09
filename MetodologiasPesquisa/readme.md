@@ -34,7 +34,7 @@ Para a implementação dessas estruturas foi necessário o aprendizado de uma no
       O termo ORM vem de "mapeamento de objeto relacional" </li>
  </ul>
 <br> 
-<details>
+<details><summary>Imagem Modelo Entidade Relacionamento (MER)</summary>
 <img src="https://camo.githubusercontent.com/dba0f6bb157766615ecde9aa67a163f79aaefffefb5a19c82605401bce16e04c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3931333533343836363638363130333537332f3938323639333131343330373331333737342f6d6f64656c6167656d2e6a706567" width=/><br>
 <em>* imagem 3: Modelo Entidade Relacionamento (MER)</em> </details>
 <br>
