@@ -50,8 +50,7 @@ Também durante esse projeto atuei na camada de troca de dados, utilizando JavaS
   <li>Requisições HTTP.</li>
 </ul>
 <br>
-<br>
-Durante a segunda sprint tivemos que fazer uma reestruturação na equipe, onde tive participação fundamental na organização da equipe. Assumindo uma nova função como PO (Product Owner) da equipe, pude colocar em prática as ferramentas das metodologias ágeis aprendidas em aula, seguindo o SCRUM. 
+Durante a segunda sprint tivemos que fazer uma reestruturação na equipe, onde tive participação fundamental na organização da equipe. Assumindo uma nova função como PO (Product Owner) da equipe até a finalização do projeto, onde pude colocar em prática as ferramentas das metodologias ágeis aprendidas em aula, seguindo o SCRUM. 
 
 
 
