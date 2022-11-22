@@ -12,12 +12,13 @@ Tenho 19 anos e trabalho como estagiário em data science.
 
 # Projeto 3: 1º Semestre de 2022
 
-### Parceiro acadêmico:
+### Parceiro acadêmico: MidAll
 
-<br><p align="left">
- <a href="https://www.midall.com.br/"><img src="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png" width="110"/></a>
-<br>
-<br>
+<details><summary>Logo da Empresa</summary>
+<br><br>
+<img src ="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png"/></details>
+<br><br>
+
 ### Objetivo do projeto:
  Ferramenta para criar promoções de E-commerce, onde as mecânicas de promoções são feitas de forma flexível e de rápida atualização no sistema. As regras de promoções são cadastradas e posteriormente aplicadas no momento em que os itens são adicionados ao carrinho.
 
@@ -25,7 +26,16 @@ Atualmente implementamos e apresentamos o cadastro dos produtos dentro de promo�
 
 Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e também para editar, deletar, interromper ou ativar promoções de uma visualização de maneira prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar quais os status de produtos e promoções.
 <br><br>
-tecnologias utilizadas: CSS | Docker | Hibernate | HTML | Java | JavaScript | Postgres | Quarkus
+tecnologias utilizadas: JQuery | CSS | Docker | Hibernate | HTML | Java | JavaScript | Postgres | Quarkus
+
+
+### Tecnologias Utilizadas:
+
+### JQuery <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
+
+jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
+
+Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
  
  
 ### Contribuições Pessoais:
