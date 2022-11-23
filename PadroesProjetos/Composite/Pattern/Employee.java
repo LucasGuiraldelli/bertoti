@@ -1,19 +1,19 @@
-public interface Employee 
+public interface Employee
 
 {
-	
-	public  int getId();
-	
+
+	public int getId();
+
 	public String getName();
-	
+
 	public double getSalary();
-	
-    public void print();
-	
+
+	public void print();
+
 	public void add(Employee employee);
-	
-    public void remove(Employee employee);
-    
-    public Employee getChild(int i);
-   
+
+	public void remove(Employee employee);
+
+	public Employee getChild(int i);
+
 }
