@@ -17,7 +17,7 @@ Tenho 19 anos e trabalho como estagiário em data science.
 <details><summary>Logo da Empresa</summary>
 <br><br>
 <img src ="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png"/></details>
-<br><br>
+
 
 ## Objetivo do projeto:
 
@@ -50,10 +50,12 @@ Além de sua própria API "nativa", o Hibernate também é uma implementação d
 As pilhas Java tradicionais foram projetadas para aplicativos monolíticos com longos tempos de inicialização e grandes requisitos de memória em um mundo onde a nuvem, os contêineres e o Kubernetes não existiam. Os frameworks Java precisavam evoluir para atender às necessidades desse novo mundo.
 
 O Quarkus foi criado para permitir que desenvolvedores Java criem aplicativos para um mundo moderno e nativo da nuvem. Quarkus é uma estrutura Java nativa do Kubernetes adaptada para GraalVM e HotSpot, criada a partir das melhores bibliotecas e padrões Java. O objetivo é tornar o Java a plataforma líder em Kubernetes e ambientes sem servidor, oferecendo aos desenvolvedores uma estrutura para atender a uma ampla variedade de arquiteturas de aplicativos distribuídos.
- 
+
+
 ### Contribuições Pessoais:
 Durante o desevolvimento do projeto, tive principal atuação no Back-end. Neste campo fui responsável pela estruturação do banco de dados, desde a modelagem dos campos necessários no modelo MER (Modelo entidade Relacionamento) garantindo a organização das informações e a fácil acessibilidade para que a aplicação mantivesse a troca de dados sem falha. <br><br>
 Para a implementação dessas estruturas foi necessário o aprendizado de uma nova tecnologia, o **Hibernate**. Que teve sua principal utilização na criação dos objetos do banco de dados a partir da aplicação.
+
 <br>
 <br>
  <ul>
