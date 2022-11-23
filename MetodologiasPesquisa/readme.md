@@ -77,12 +77,56 @@ Durante o projeto também atuei na camada de troca de dados, utilizando JavaScri
 
 <br>
 
- <ul>
-  <li>cadastro de promoções;</li>
-  <li>Definições de endpoints;</li>
-  <li>Verificação de promoções cadastradas;</li>
-  <li>Requisições HTTP.</li>
-</ul>
+ <details><summary>Cadastro de promoções</summary> 
+ 
+ <br>
+ 
+  O cadastro de promoções era parte fundamental para o projeto, que tem por intenção, suprir a principal necessidade do cliente. 
+ 
+ <br>
+  Exemplo de código:
+ 
+ ~~~
+ 
+ 	$(document).ready(function() {
+
+		$.ajax({
+			url: "http://localhost:8080/cadastroPromocao",
+			async: false,
+			data: JSON.stringify(
+				{
+					"id": 0,
+					"nomeVenda": codigoVenda,
+					"descVenda": nomeVenda,
+					"catVenda": catVenda,
+					"quantVenda": quantVenda,
+					"valorVenda": valorVenda,
+				}
+			),
+			type: 'POST',
+			headers: {
+				Accept: 'application/json;charset=utf-8',
+				'Content-Type': 'application/json'
+			},
+			dataType: 'json'
+		});
+		console.log("Inserção Realizada!")
+	});
+ ~~~
+ </details>
+ 
+ <details><summary>Definições de endpoints;</summary> 
+  aaaaaaaaaaaaaaaaaaaaaaa
+ </details>
+ <details><summary> Verificação de promoções cadastradas;</summary> 
+  aaaaaaaaaaaaaaaaaaaaaaa
+ </details>
+ <details><summary>Requisições HTTP.</summary> 
+  aaaaaaaaaaaaaaaaaaaaaaa
+ </details>
+
+ 
+
 
 <br>
 
