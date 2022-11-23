@@ -33,19 +33,18 @@ Além disso, há a autonomia fornecida ao usuário para editar, remover, arquiva
 
 ### Tecnologias Utilizadas:
 
-### `JQuery ` <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
-
+### `JQuery ` 
 jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
 
 Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
 
-### `Hibernate ` <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
+### `Hibernate ` 
 
 O Hibernate ORM permite que os desenvolvedores escrevam aplicativos com mais facilidade cujos dados sobrevivem ao processo do aplicativo. Como um framework Object/Relational Mapping (ORM), o Hibernate se preocupa com a persistência de dados quando se aplica a bancos de dados relacionais (via JDBC).
 Além de sua própria API "nativa", o Hibernate também é uma implementação da especificação Java Persistence API (JPA). Como tal, pode ser facilmente usado em qualquer ambiente que suporte JPA, incluindo aplicativos Java SE, servidores de aplicativos Java EE, contêineres Enterprise OSGi, etc.
 
 
-### `Quarkus ` <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
+### `Quarkus ` 
 
 As pilhas Java tradicionais foram projetadas para aplicativos monolíticos com longos tempos de inicialização e grandes requisitos de memória em um mundo onde a nuvem, os contêineres e o Kubernetes não existiam. Os frameworks Java precisavam evoluir para atender às necessidades desse novo mundo.
 
@@ -58,10 +57,6 @@ Para a implementação dessas estruturas foi necessário o aprendizado de uma no
 
 <br>
 <br>
- <ul>
-  <li>Hibernate é uma ferramenta para mapeamento objeto/relacional para ambientes Java. 
-      O termo ORM vem de "mapeamento de objeto relacional" </li>
- </ul>
 <br> 
 <details><summary>Imagem Modelo Entidade Relacionamento (MER)</summary>
 <img src="https://camo.githubusercontent.com/dba0f6bb157766615ecde9aa67a163f79aaefffefb5a19c82605401bce16e04c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3931333533343836363638363130333537332f3938323639333131343330373331333737342f6d6f64656c6167656d2e6a706567" width=/><br>
