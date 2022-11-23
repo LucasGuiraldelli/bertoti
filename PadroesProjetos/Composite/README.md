@@ -1,1 +1,1 @@
-![DiagramClass](https://user-images.githubusercontent.com/64923139/191637142-1c0d3bc5-4b19-4d89-b2ab-d31d0c998fc3.png)
+![DiagramClass](https://github.com/LucasGuiraldelli/bertoti/blob/main/PadroesProjetos/Composite/Captura%20de%20tela%202022-11-23%20155442.png?raw=true)
