@@ -28,8 +28,6 @@ Atualmente implementamos e apresentamos o cadastro dos produtos dentro de promo�
 Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e também para editar, deletar, interromper ou ativar promoções de uma visualização de maneira prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar quais os status de produtos e promoções.
 <br><br>
 
-**tecnologias utilizadas: JQuery | Hibernate | Quarkus**
-
 
 ### Tecnologias Utilizadas:
 
