@@ -27,7 +27,8 @@ Atualmente implementamos e apresentamos o cadastro dos produtos dentro de promo�
 
 Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e também para editar, deletar, interromper ou ativar promoções de uma visualização de maneira prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar quais os status de produtos e promoções.
 <br><br>
-tecnologias utilizadas: JQuery Hibernate Quarkus
+
+**tecnologias utilizadas: JQuery | Hibernate | Quarkus**
 
 
 ### Tecnologias Utilizadas:
@@ -44,7 +45,7 @@ O Hibernate ORM permite que os desenvolvedores escrevam aplicativos com mais fac
 Além de sua própria API "nativa", o Hibernate também é uma implementação da especificação Java Persistence API (JPA). Como tal, pode ser facilmente usado em qualquer ambiente que suporte JPA, incluindo aplicativos Java SE, servidores de aplicativos Java EE, contêineres Enterprise OSGi, etc.
 
 
-### `Hibernate ` <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
+### `Quarkus ` <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
 
 As pilhas Java tradicionais foram projetadas para aplicativos monolíticos com longos tempos de inicialização e grandes requisitos de memória em um mundo onde a nuvem, os contêineres e o Kubernetes não existiam. Os frameworks Java precisavam evoluir para atender às necessidades desse novo mundo.
 
