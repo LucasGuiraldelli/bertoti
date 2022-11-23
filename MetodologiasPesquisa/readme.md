@@ -18,6 +18,7 @@ Tenho 19 anos e trabalho como estagiário em data science.
 <br><br>
 <img src ="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png"/></details>
 
+<br>
 
 ## Objetivo do projeto:
 
@@ -48,31 +49,44 @@ As pilhas Java tradicionais foram projetadas para aplicativos monolíticos com l
 
 O Quarkus foi criado para permitir que desenvolvedores Java criem aplicativos para um mundo moderno e nativo da nuvem. Quarkus é uma estrutura Java nativa do Kubernetes adaptada para GraalVM e HotSpot, criada a partir das melhores bibliotecas e padrões Java. O objetivo é tornar o Java a plataforma líder em Kubernetes e ambientes sem servidor, oferecendo aos desenvolvedores uma estrutura para atender a uma ampla variedade de arquiteturas de aplicativos distribuídos.
 
+<br>
 
 ### Contribuições Pessoais:
 Durante o desevolvimento do projeto, tive principal atuação no Back-end. Neste campo fui responsável pela estruturação do banco de dados, desde a modelagem dos campos necessários no modelo MER (Modelo entidade Relacionamento) garantindo a organização das informações e a fácil acessibilidade para que a aplicação mantivesse a troca de dados sem falha. <br><br>
 Para a implementação dessas estruturas foi necessário o aprendizado de uma nova tecnologia, o **Hibernate**. Que teve sua principal utilização na criação dos objetos do banco de dados a partir da aplicação.
 
-<br>
-<br>
-<br> 
+
 <details><summary>Imagem Modelo Entidade Relacionamento (MER)</summary>
-<img src="https://camo.githubusercontent.com/dba0f6bb157766615ecde9aa67a163f79aaefffefb5a19c82605401bce16e04c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3931333533343836363638363130333537332f3938323639333131343330373331333737342f6d6f64656c6167656d2e6a706567" width=/><br>
-<em>* imagem 3: Modelo Entidade Relacionamento (MER)</em> </details>
-<br>
-<br>
+
 <br>
 
-Também durante esse projeto atuei na camada de troca de dados, utilizando JavaScript para:
+* Em engenharia de software, um **modelo entidade relacionamento** é um modelo de dados para descrever os dados ou aspectos de informação de um domínio de negócio ou seus requisitos de processo 
+
 <br>
+
+ <img   src="https://camo.githubusercontent.com/dba0f6bb157766615ecde9aa67a163f79aaefffefb5a19c82605401bce16e04c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3931333533343836363638363130333537332f3938323639333131343330373331333737342f6d6f64656c6167656d2e6a706567" width=/><br>
+ <em>* imagem 3: Modelo Entidade Relacionamento (MER)</em>
+
+<br>
+
+**_Explicação do MER_:** Para a modelagem do banco utilizei a ferramenta brModelo para criar as entidades, atributos e definir seus relacionamentos. Onde foi definido que: Um produto pode fazer parte de vários carrinhos e um carrinho precisa receber pelo menos um ou vários produtos. Uma promoção pertence a apenas um produto, já um produto pode fazer parte de diversas promoções, ou seja, uma promoção não pode existir sem um produto. </details>
+
+<br>
+
+Durante o projeto também atuei na camada de troca de dados, utilizando JavaScript para:
+
+<br>
+
  <ul>
   <li>cadastro de promoções;</li>
   <li>Definições de endpoints;</li>
   <li>Verificação de promoções cadastradas;</li>
   <li>Requisições HTTP.</li>
 </ul>
+
 <br>
-Durante a segunda sprint tivemos que fazer uma reestruturação na equipe, onde tive participação fundamental na organização da equipe. Assumindo uma nova função como PO (Product Owner) da equipe até a finalização do projeto, onde pude colocar em prática as ferramentas das metodologias ágeis aprendidas em aula, seguindo o SCRUM. 
+
+Durante a segunda sprint tivemos que fazer uma reestruturação na equipe, onde tive participação fundamental na organização da equipe. Assumindo uma nova função como _PO (Product Owner)_ da equipe até a finalização do projeto, onde pude colocar em prática as ferramentas das metodologias ágeis aprendidas em aula, seguindo o SCRUM. 
 
 
 
