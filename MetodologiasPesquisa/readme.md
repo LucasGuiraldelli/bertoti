@@ -4,7 +4,7 @@
 
 Olá, seja bem-vindo. Sou o Lucas Guiraldelli, estudante de Banco de Dados pela FATEC Prof. Jessen Vidal. 
 
-Tenho 19 anos e trabalho como estagiário em data science. 
+Tenho 19 anos e trabalho como Cientista de Dados. 
 <br>
 
 ![image](https://user-images.githubusercontent.com/64923139/197658220-a1e1a80a-8c97-44dc-9c65-589788f2841f.png)
@@ -12,7 +12,7 @@ Tenho 19 anos e trabalho como estagiário em data science.
 
 # Projeto 3: 1º Semestre de 2022
 
-### Parceiro acadêmico: MidAll
+### Parceiro acadêmico: <a href="https://www.midall.com.br/">MidAll</a>
 
 <details><summary>Logo da Empresa</summary>
 <br><br>
@@ -116,13 +116,10 @@ Durante o projeto também atuei na camada de troca de dados, utilizando JavaScri
  </details>
  
  <details><summary>Definições de endpoints;</summary> 
-  aaaaaaaaaaaaaaaaaaaaaaa
  </details>
  <details><summary> Verificação de promoções cadastradas;</summary> 
-  aaaaaaaaaaaaaaaaaaaaaaa
  </details>
  <details><summary>Requisições HTTP.</summary> 
-  aaaaaaaaaaaaaaaaaaaaaaa
  </details>
 
  
@@ -132,5 +129,26 @@ Durante o projeto também atuei na camada de troca de dados, utilizando JavaScri
 
 Durante a segunda sprint tivemos que fazer uma reestruturação na equipe, onde tive participação fundamental na organização da equipe. Assumindo uma nova função como _PO (Product Owner)_ da equipe até a finalização do projeto, onde pude colocar em prática as ferramentas das metodologias ágeis aprendidas em aula, seguindo o SCRUM. 
 
+<br>
+
+<br>
 
 
+# Projeto 4: 2º Semestre de 2022
+
+### Parceiro acadêmico: <a href="https://www.subiter.com/">Subiter</a>
+
+<details><summary>Logo da Empresa</summary>
+<br><br>
+<img src="https://user-images.githubusercontent.com/80851038/190831621-96d01aab-af9f-4b9b-a7c5-9e6419d287bb.jpeg" 
+ width="35%"/></details>
+
+
+<br>
+
+## Objetivo do projeto:
+
+Temos um desafio de sincronização dos dados administrativos, financeiros e operacionais referentes aos serviços prestados pela empresa. A falta de organização dos dados acarreta lentidão para atender chamados, e confusão na interpretação dos indicadores comerciais e financeiros.
+
+Desenvolvemos uma plataforma web que organiza todos os dados referentes aos serviços prestados pela empresa, de forma interpretada, cujo o principal objetivo é criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma ponta a ponta entre a relação do cliente com o suporte e, suporte com a do administrador que, trabalha na criação e sincronização dos dados em um único lugar.
+<br><br>
