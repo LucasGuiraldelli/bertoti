@@ -169,6 +169,23 @@ O Vue.js oferece uma base sólida para o desenvolvimento de interfaces de usuár
 
 - Para mais informações acesse o site oficial da ferramenta [Vue.js](https://vuejs.org/)
 
+<br>
+
+### Contribuições Pessoais:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
+<details><summary>Definições de endpoints;</summary> 
+</details>
+<details><summary> Verificação de promoções cadastradas;</summary> 
+</details>
+<details><summary>Requisições HTTP.</summary> 
+</details>
+
+
+<br>
+
+
 ## Aprendizados efetivos:
 
 Neste projeto, tive a oportunidade de atuar em uma nova posição desde o meu ingresso na Fatec, sendo desenvolvedor focado em front-end e requisições de dados. Para isso, utilizamos como ferramenta principal o Vue.js, uma tecnologia nova para mim, que ampliou minha forma de pensar. Com ela, pude realizar tarefas variadas, desde o desenvolvimento de interfaces e design de telas até a criação de uma estrutura que permitiu a interação e a troca de informações de maneira eficiente em conjunto com o back-end. Essa experiência contribuiu para o aprimoramento das minhas habilidades e consolidou meu conhecimento nesse campo da programação.
