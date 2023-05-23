@@ -30,9 +30,10 @@ Além disso, há a autonomia fornecida ao usuário para editar, remover, arquiva
 <br><br>
 
 
-### Tecnologias Utilizadas:
+## Tecnologias Utilizadas:
 
 ### `JQuery ` 
+
 jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
 
 Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
@@ -148,7 +149,26 @@ Durante a segunda sprint tivemos que fazer uma reestruturação na equipe, onde 
 
 ## Objetivo do projeto:
 
-Temos um desafio de sincronização dos dados administrativos, financeiros e operacionais referentes aos serviços prestados pela empresa. A falta de organização dos dados acarreta lentidão para atender chamados, e confusão na interpretação dos indicadores comerciais e financeiros.
+Tiveos um desafio de sincronização dos dados administrativos, financeiros e operacionais referentes aos serviços prestados pela empresa. A falta de organização dos dados acarreta lentidão para atender chamados, e confusão na interpretação dos indicadores comerciais e financeiros.
 
 Desenvolvemos uma plataforma web que organiza todos os dados referentes aos serviços prestados pela empresa, de forma interpretada, cujo o principal objetivo é criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma ponta a ponta entre a relação do cliente com o suporte e, suporte com a do administrador que, trabalha na criação e sincronização dos dados em um único lugar.
-<br><br>
+
+<br>
+
+## Tecnologias Utilizadas:
+
+### `Vue.js ` 
+
+Vue.js é amplamente utilizado em aplicações web para o desenvolvimento do front-end. Sua simplicidade, flexibilidade e eficiência o tornam uma escolha popular para a criação de interfaces de usuário interativas e responsivas.
+
+No contexto do front-end, o Vue.js facilita a criação de componentes reutilizáveis que podem ser compostos para formar interfaces complexas. Isso promove uma estrutura organizada e modular, permitindo aos desenvolvedores dividir o código em partes menores e mais gerenciáveis. Essa abordagem facilita a manutenção do código, melhorando a legibilidade e reusabilidade.
+
+No que diz respeito à criação de estrutura de requisições, o Vue.js é uma biblioteca focada principalmente no desenvolvimento de interfaces de usuário. Embora o Vue.js possa lidar com solicitações HTTP por meio de bibliotecas de terceiros, como o Axios, a criação de uma estrutura completa de requisições vai além do escopo principal do Vue.js. Nesse caso, é comum combinar o Vue.js com outras bibliotecas ou frameworks específicos para manipulação de requisições, como o Vue Resource ou o Vuex, dependendo dos requisitos do projeto.
+
+O Vue.js oferece uma base sólida para o desenvolvimento de interfaces de usuário eficientes e responsivas. 
+
+- Para mais informações acesse o site oficial da ferramenta [Vue.js](https://vuejs.org/)
+
+## Aprendizados efetivos:
+
+Neste projeto, tive a oportunidade de atuar em uma nova posição desde o meu ingresso na Fatec, sendo desenvolvedor focado em front-end e requisições de dados. Para isso, utilizamos como ferramenta principal o Vue.js, uma tecnologia nova para mim, que ampliou minha forma de pensar. Com ela, pude realizar tarefas variadas, desde o desenvolvimento de interfaces e design de telas até a criação de uma estrutura que permitiu a interação e a troca de informações de maneira eficiente em conjunto com o back-end. Essa experiência contribuiu para o aprimoramento das minhas habilidades e consolidou meu conhecimento nesse campo da programação.
