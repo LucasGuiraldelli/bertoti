@@ -128,6 +128,8 @@ Durante o projeto também atuei na camada de troca de dados, utilizando JavaScri
 
 <br>
 
+## Aprendizados efetivos:
+
 Durante a segunda sprint tivemos que fazer uma reestruturação na equipe, onde tive participação fundamental na organização da equipe. Assumindo uma nova função como _PO (Product Owner)_ da equipe até a finalização do projeto, onde pude colocar em prática as ferramentas das metodologias ágeis aprendidas em aula, seguindo o SCRUM. 
 
 <br>
