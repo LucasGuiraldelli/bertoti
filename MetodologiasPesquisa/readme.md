@@ -11,6 +11,72 @@ Tenho 19 anos e trabalho como Cientista de Dados.
 
 
 
+# Projeto 1: 1º Semestre de 2021
+
+### Como primeiro projeto da Faculdade, neste semestre não tivemos uma empresa externa como parceira para desenvolvimento de uma dor real. 
+
+<details><summary>Logo do produto desenvolvido: Helena</summary>
+<br><br>
+	
+<p align="center">
+<img src="https://user-images.githubusercontent.com/80851038/118410251-e2069880-b664-11eb-9eb6-b9bdfc8526eb.png" width="920px" height="330px">
+</p>
+<br>
+</details>
+
+
+<br>
+
+## Objetivo do projeto:
+
+Desenvolvida para ser uma assistente virtual de viagens. Helena responde a comandos de voz e possui como principal objetivo garantir ao usuário uma experiência otimizada e agradável quando estiver viajando. E proporciona, de forma única, diversas funcionalidades que podem ser de grande ajuda em certos momentos.
+De cidades históricas aos grandes centros urbanos o app foi criado por nós, para você amante de viagens.
+
+<br>
+
+## Tecnologias Utilizadas:
+
+### `ReactNative ` 
+
+O React Native é um framework de desenvolvimento de aplicativos móveis que permite criar aplicativos nativos para iOS e Android usando JavaScript. Ele utiliza uma camada de abstração sobre os elementos de interface de usuário nativos, permitindo que os desenvolvedores criem componentes reutilizáveis. Esses componentes são traduzidos em elementos nativos da interface do usuário, proporcionando uma experiência nativa. O React Native permite compartilhar código entre as plataformas, resultando em maior eficiência e produtividade. Seu propósito é oferecer uma maneira eficiente de criar aplicativos móveis nativos, usando JavaScript e aproveitando recursos nativos do dispositivo. É uma opção popular para o desenvolvimento rápido de aplicativos móveis com uma experiência do usuário nativa.
+
+
+
+<br>
+
+- Para mais informações acesse este site para entender melhor o funcionamento e aplicabilidade dessa tecnolgia [Java]([https://vuejs.org/](https://www.alura.com.br/cursos-online-programacao/java?gclid=CjwKCAjwvdajBhBEEiwAeMh1UzkpkuL-4lrua7qSKEgU3mx2DGLD0x08seaw__H3-jBDp6RC2I7vyRoCafQQAvD_BwE))
+
+
+<br>
+
+### Contribuições Pessoais:
+
+
+
+<br>
+
+<details><summary> Definição de estrutura de conexão</summary> 
+	
+```
+	
+```
+	
+</details>
+
+
+<br>
+
+
+## Aprendizados efetivos:
+
+Neste projeto, tive a oportunidade de atuar como P.O. (Product Owner) do projeto, tendo oportunidade de desenvolver habilidades de Soft Skills, principalmente de comunicação para definição de planejamento de entregas e organização de equipe. 
+Como desenvolvedor focado em back-end, pude focar em tarefas voltadas ao preparo de ambiente para utiização das tecnologias citadas acima, estruturação de repositórios e pastas para utilização do Java. Também o desenvolvimento de funções em Java, o que agregou muito para o meu entendimento de como algoritmos de programação funcionam e a importância de ter uma estrutura e regras de acesso muito bem definidas para que a aplicação funcione da forma robusta.
+Voltado para conhecimentos de DBA (Database Administrator), pude desenvolver habilidades de acesso a banco de dados utilizando strings de conexão, realizar inserções e consultas dos dados de forma segura.
+
+<br>
+
+
+
 # Projeto 2: 2º Semestre de 2021
 
 ### Parceiro acadêmico: <a href="http://necto.com.br/pt/">NECTO Systems</a>
