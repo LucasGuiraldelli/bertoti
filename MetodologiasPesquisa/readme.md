@@ -181,14 +181,122 @@ Sass (Syntactically Awesome Style Sheets) é uma linguagem de folhas de estilo q
 <br>
 
 ### Contribuições Pessoais:
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Neste projeto fui responsável pela criação da estrutura de requisições HTTP, utilizando uma nova tecnologia no front-end, o vue.js além disso, fui reponsável pelo desenvolvimento das telas, bem como design seguindo fielmente a estrutura do figma e também pela conectividade com funções do back-end. Também usando o vue.js, criei diferentes funções para focadas em dispodição de dados no front-end e acesso, ao que seria, um novo modelo de estruturação de pastas do projeto.
+Afim de melhorar o front-end, utilizei uma nova tecnologia, o Sass. Que melhora a visualização de componentes/design em geral, a partir do CSS. 
 
+<details><summary> Definição de endpoint</summary> 
+	
+```
+	fetch("https://subiter.herokuapp.com/requests", requestOptions)
+        		.then((response) => response.text())
+        		.then((result) => {
+          		this.chamados = JSON.parse(result);
+	
+```
+	
+</details>
 
-<details><summary>Definições de endpoints;</summary> 
+<details><summary>Requisições HTTP</summary> 
+	
+```
+	import ChamadosComponent from "@/components/ChamadosComponent.vue";
+		
+	export default {
+ 		name: "ChamadosView",
+  		components: {
+    			ChamadosComponent,
+    			FormChamado,
+    			DeleteChamado,
+    			UpdateChamados,
+    			AlertComponent
+  	},
+  	data() {
+    		return {
+      		chamados: [],
+    	};
+  	},
+  	methods: {
+    	//faz o get da tabela
+    	load() {
+      	var myHeaders = new Headers();
+      	var token = localStorage.getItem("Token");
+      	// console.log(token)
+      	myHeaders.append("Content-Type", "application/json");
+      	myHeaders.append("Authorization", `${token}`);
+
+      	var requestOptions = {
+        	method: "GET",
+        	headers: myHeaders,
+        	redirect: "follow",
+      	};
+
+      	fetch("https://subiter.herokuapp.com/requests", requestOptions)
+        		.then((response) => response.text())
+        		.then((result) => {
+          		this.chamados = JSON.parse(result);
+        	});
+    	    },
+  	},
+```
+	
 </details>
-<details><summary> Verificação de promoções cadastradas;</summary> 
+
+<details><summary>Export de dados</summary> 
+
+```
+  export default {
+  name: "AgendamentosComponent",
+  props: {
+    agendamentos: Array,
+  },
+  data(agendamentos) {
+    console.log(agendamentos);
+    return {
+      search: "",
+      headers: [
+        {
+          text: "Código",
+          align: "start",
+          sortable: false,
+          value: "id",
+        },
+        { text: "Tipo de Serviço", value: "serviceProvided" },
+        { text: "Horario", value: "appointment" },
+        { text: "Data", value: "date" },
+        { text: "Endereço", value: "address" },
+        { text: "Cidade", value: "city" },
+        { text: "Estado", value: "state" },
+        { text: "CEP", value: "zipcode" },
+      ],
+    };
+  },
+
+		
+```
 </details>
-<details><summary>Requisições HTTP.</summary> 
+
+<details><summary>Exemplo de arquivo de desgin do Sass</summary>
+
+```
+.iconChat {
+    background: #0257fd;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 20;
+}
+
+```
+	
 </details>
 
 
