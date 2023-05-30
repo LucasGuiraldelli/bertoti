@@ -10,6 +10,143 @@ Tenho 19 anos e trabalho como Cientista de Dados.
 ![image](https://user-images.githubusercontent.com/64923139/197658220-a1e1a80a-8c97-44dc-9c65-589788f2841f.png)
 
 
+
+# Projeto 2: 2º Semestre de 2021
+
+### Parceiro acadêmico: <a href="http://necto.com.br/pt/">NECTO Systems</a>
+
+<details><summary>Logo da Empresa</summary>
+<br><br>
+	
+<p align="center">
+ <a href="http://necto.com.br/pt/"><img src="https://user-images.githubusercontent.com/80851038/133914328-794317fa-31e1-4279-afb0-d986acb5db45.png" width="320"/></a>
+</p>
+
+</details>
+
+
+<br>
+
+## Objetivo do projeto:
+
+O desafio consiste em apresentar para o cliente Necto Systems, uma solução referente ao problema no monitoramento de um ou mais SGBDs remotos, bem como na coleta de métricas de funcionamento dos Banco de Dados presentes nos servidores da empresa.
+
+Tendo isso em mente, o objetivo da equipe é desenvolver um software integrado que monitore e apresente métricas referentes ao uso e a saúde do SGBD em tempo real. Além de oferecer um pós gerenciamento de múltiplos BDs no servidor, como diferencial.
+
+<br>
+
+## Tecnologias Utilizadas:
+
+### `Java ` 
+
+A linguagem de programação Java possui várias finalidades. É usada para desenvolvimento de aplicativos de desktop com interfaces gráficas, aplicativos web dinâmicos e escaláveis, aplicativos móveis para Android, aplicativos empresariais confiáveis e de alto desempenho, sistemas embarcados como IoT, desenvolvimento de jogos e aplicações científicas e análise de dados. Sua versatilidade permite seu uso em uma ampla gama de aplicações.
+
+A linguagem de programação Java tem vários outros objetivos, incluindo:
+
+1. Desenvolvimento de aplicativos de desktop com a biblioteca Swing e AWT.
+2. Desenvolvimento de aplicativos web usando JavaServer Pages (JSP) e Servlets, além de frameworks como Spring e JSF.
+3. Desenvolvimento de aplicativos móveis nativos para Android.
+4. Desenvolvimento de aplicativos empresariais robustos e escaláveis.
+5. Desenvolvimento de sistemas embarcados e aplicativos de IoT usando Java ME.
+6. Desenvolvimento de jogos, especialmente para dispositivos móveis, com bibliotecas como libGDX.
+7. Desenvolvimento de aplicações científicas e análise de dados usando bibliotecas como Apache Spark e Hadoop.
+
+<br>
+
+- Para mais informações acesse este site para entender melhor o funcionamento e aplicabilidade dessa tecnolgia [Java]([https://vuejs.org/](https://www.alura.com.br/cursos-online-programacao/java?gclid=CjwKCAjwvdajBhBEEiwAeMh1UzkpkuL-4lrua7qSKEgU3mx2DGLD0x08seaw__H3-jBDp6RC2I7vyRoCafQQAvD_BwE))
+
+### `PostgreSQL ` 
+
+O PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto. Ele fornece um ambiente robusto e confiável para armazenar, organizar e gerenciar dados estruturados. O PostgreSQL suporta SQL completo, incluindo consultas complexas, transações ACID (Atomicidade, Consistência, Isolamento e Durabilidade) e possui recursos avançados, como indexação, gatilhos, visões e funções armazenadas. É conhecido por sua estabilidade, escalabilidade e flexibilidade, sendo amplamente utilizado em uma variedade de aplicativos e cenários, desde pequenos projetos até sistemas empresariais de alto tráfego.
+
+
+- Para mais informações acesse o site oficial da ferramenta [PostgreSQL](https://www.postgresql.org/)
+
+<br>
+
+### `SQLite ` 
+
+O SQLite é um sistema de gerenciamento de banco de dados relacional de código aberto, que é amplamente utilizado em aplicativos embarcados e de pequeno porte. Diferente de outros sistemas de banco de dados, o SQLite é uma biblioteca que pode ser incorporada diretamente nas aplicações, sem a necessidade de um servidor separado. Ele é conhecido por ser leve, rápido, autossuficiente e não requer configuração ou administração complexa. O SQLite suporta a maioria dos recursos de banco de dados tradicionais, como tabelas, consultas SQL, índices e transações. É uma opção popular para aplicativos móveis, navegadores da web e outros casos em que a simplicidade e a eficiência são prioridades.
+
+- Para mais informações acesse o site oficial da ferramenta [SQLite](https://sqlite.org/index.html)
+
+<br>
+
+### Contribuições Pessoais:
+Neste projeto tive como atividade principal a criação de estrutura segura para conexão aos servidores dos bancos de dados do cliente, os que seriam usados posteriormente para monitoramento. A criação de estrutura foi feita em java, seguindo as especificações de strings de conexão colhidas no PostgreSQL. 
+Esta estrutura também contava com verificações de problemas nas requisições e definições de tempo máximo para busca, além de realizar buscar por metadados.
+
+
+<br>
+
+<details><summary> Definição de estrutura de conexão</summary> 
+	
+```
+	
+      public conexao(String databaseName) {
+		
+		
+		
+		System.out.println("Digite seu login de conexão com o banco de dados nos respectivos campos ");
+		System.out.println("url: ");
+		String url = sc.next();
+		System.out.println("Usuário: ");
+		String user = sc.next();
+		System.out.println("Senha: ");
+		String pass = sc.next();
+		
+		try {
+			Class.forName("org.postgresql.Driver");
+			con = DriverManager.getConnection(url + databaseName, user, pass);
+			//System.out.println("Banco conectado com sucesso!");
+		} catch (Exception e) {
+			throw new Error("Houve um problema ao conectar no banco de dados!");
+		}
+	}
+	
+```
+	
+</details>
+
+<details><summary>Verificação de acesso a base</summary> 
+	
+Erro ao encontrar tabela de dados:
+
+```
+
+			if (tableSize.isEmpty()) {
+				System.out.println("Nenhuma tabela encontrada");
+			}
+
+			conx.closeConnection();
+	
+```
+
+Verificação geral de busca de dados:
+	
+```
+	catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Houve um problema ao requisitar o tamanho das tabelas de todos os banco de dados!");
+		}
+
+```
+		
+	
+</details>
+
+<br>
+
+
+## Aprendizados efetivos:
+
+Neste projeto, tive a oportunidade de atuar como P.O. (Product Owner) do projeto, tendo oportunidade de desenvolver habilidades de Soft Skills, principalmente de comunicação para definição de planejamento de entregas e organização de equipe. 
+Como desenvolvedor focado em back-end, pude focar em tarefas voltadas ao preparo de ambiente para utiização das tecnologias citadas acima, estruturação de repositórios e pastas para utilização do Java. Também o desenvolvimento de funções em Java, o que agregou muito para o meu entendimento de como algoritmos de programação funcionam e a importância de ter uma estrutura e regras de acesso muito bem definidas para que a aplicação funcione da forma robusta.
+Voltado para conhecimentos de DBA (Database Administrator), pude desenvolver habilidades de acesso a banco de dados utilizando strings de conexão, realizar inserções e consultas dos dados de forma segura.
+
+<br>
+
+
 # Projeto 3: 1º Semestre de 2022
 
 ### Parceiro acadêmico: <a href="https://www.midall.com.br/">MidAll</a>
