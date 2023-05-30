@@ -173,6 +173,13 @@ O Vue.js oferece uma base sólida para o desenvolvimento de interfaces de usuár
 
 <br>
 
+### `SASS ` 
+Sass (Syntactically Awesome Style Sheets) é uma linguagem de folhas de estilo que melhora o CSS, oferecendo recursos como variáveis, aninhamento, mixins, herança, importação, funções e operações matemáticas. Ele precisa ser compilado para CSS antes de ser interpretado pelos navegadores. O Sass é útil para front-end, facilitando a escrita e organização do código CSS, resultando em um fluxo de trabalho mais eficiente e produtivo.
+
+- Para mais informações acesse o site oficial da ferramenta [SASS](https://sass-lang.com/)
+
+<br>
+
 ### Contribuições Pessoais:
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
