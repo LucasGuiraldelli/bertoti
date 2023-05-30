@@ -41,23 +41,93 @@ De cidades históricas aos grandes centros urbanos o app foi criado por nós, pa
 O React Native é um framework de desenvolvimento de aplicativos móveis que permite criar aplicativos nativos para iOS e Android usando JavaScript. Ele utiliza uma camada de abstração sobre os elementos de interface de usuário nativos, permitindo que os desenvolvedores criem componentes reutilizáveis. Esses componentes são traduzidos em elementos nativos da interface do usuário, proporcionando uma experiência nativa. O React Native permite compartilhar código entre as plataformas, resultando em maior eficiência e produtividade. Seu propósito é oferecer uma maneira eficiente de criar aplicativos móveis nativos, usando JavaScript e aproveitando recursos nativos do dispositivo. É uma opção popular para o desenvolvimento rápido de aplicativos móveis com uma experiência do usuário nativa.
 
 
+<br>
+
+-  Para mais informações acesse o site oficial da ferramenta [ReactNative](https://reactnative.dev/)
 
 <br>
 
-- Para mais informações acesse este site para entender melhor o funcionamento e aplicabilidade dessa tecnolgia [Java]([https://vuejs.org/](https://www.alura.com.br/cursos-online-programacao/java?gclid=CjwKCAjwvdajBhBEEiwAeMh1UzkpkuL-4lrua7qSKEgU3mx2DGLD0x08seaw__H3-jBDp6RC2I7vyRoCafQQAvD_BwE))
+### `JavaScript ` 
 
+JavaScript é uma linguagem de programação amplamente usada no desenvolvimento web. Suas principais usabilidades incluem a manipulação do DOM, validação de formulários, requisições assíncronas, manipulação de dados, criação de animações e interação com APIs externas. Com bibliotecas e frameworks, é possível criar efeitos visuais, jogos web e integrar funcionalidades de terceiros. JavaScript é suportado pelos navegadores modernos e é uma escolha poderosa para criar páginas interativas, responsivas e dinâmicas.
+
+
+<br>
+
+-  Para mais informações acesse este site para entender melhor o funcionamento e aplicabilidade dessa tecnolgia [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 <br>
 
 ### Contribuições Pessoais:
 
+Neste projeto, principalmente, fui responsável pela pela parte de estruturar o back-end do projeto utilizando ReactNative e pelo desenvolvimento de telas. 
+Como principais tarefas desenvolvidas de back-end, destaco o a atividade de conexão com dieferentes API's, como foi o caso da conexão com a API do google para ter acesso a localização do usuário em tempo real, ter acesso a previsão do tempo deste local, identificação de locais para visitação e ao mapa, para trazer a rota que leva o usuário ao ponto turístico escolhido.
+No front-end, tive atuação principalmente no desenvolvimento de telas, como foi o caso da tela de previsão do tempo e de lista de função disponibilizadas pelo nosso app.
 
 
 <br>
 
-<details><summary> Definição de estrutura de conexão</summary> 
+<details><summary>Definição de palavras chave para ativação e chamada da função</summary> 
 	
 ```
+export default class Converter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      coinA: props.coinA,
+      coinB: props.coinB,
+      coinA_value: 0,
+      convertedValue: 0,
+    };
+
+    this.converter = this.converter.bind(this);
+  }
+
+  async converter() {
+    let from_to = this.state.coinA + "_" + this.state.coinB;
+
+    const response = await api.get(
+      `convert?q=${from_to}&compact=ultra&apiKey=d8148018a3851e72d0e5`
+    );
+
+    let price = response.data[from_to];
+
+    let result = price * parseFloat(this.state.coinA_value);
+
+    this.setState({ convertedValue: result.toFixed(2) });
+    Keyboard.dismiss();
+  }
+	
+```
+	
+</details>
+
+<details><summary>Definição de palavras chave para ativação e chamada da função</summary> 
+	
+```
+words: [
+      'Helena abrir conversor de medidas',
+      'Helena conversor de medidas',
+	
+```
+	
+</details>
+
+<details><summary>Exemplo de estilização da tela</summary> 
+	
+```
+  const styles = StyleSheet.create({
+    container: {
+    	flex: 1,
+    	paddingHorizontal: 20,
+   	paddingVertical: 20,
+    	marginTop: 20,
+    	backgroundColor: "#FFF"
+  },
+  Body: {
+    flex: 1
+  },
+}
 	
 ```
 	
@@ -69,9 +139,9 @@ O React Native é um framework de desenvolvimento de aplicativos móveis que per
 
 ## Aprendizados efetivos:
 
-Neste projeto, tive a oportunidade de atuar como P.O. (Product Owner) do projeto, tendo oportunidade de desenvolver habilidades de Soft Skills, principalmente de comunicação para definição de planejamento de entregas e organização de equipe. 
-Como desenvolvedor focado em back-end, pude focar em tarefas voltadas ao preparo de ambiente para utiização das tecnologias citadas acima, estruturação de repositórios e pastas para utilização do Java. Também o desenvolvimento de funções em Java, o que agregou muito para o meu entendimento de como algoritmos de programação funcionam e a importância de ter uma estrutura e regras de acesso muito bem definidas para que a aplicação funcione da forma robusta.
-Voltado para conhecimentos de DBA (Database Administrator), pude desenvolver habilidades de acesso a banco de dados utilizando strings de conexão, realizar inserções e consultas dos dados de forma segura.
+Como primeiro projeto da faculdade, como tive contato com novas tecnologias que nunca tinha tido antes, houve muito espaço para aprendizado. Além do primeiro contato com a metodologia ágil Scrum, pude aprender bastante sobre como estruturação de projetos, utilização de versionamento de código e fluxo de desenvolvimento de projeto. Além disso, pude melhorar minhas Soft Skills, a partir de conversas com o cliente interno e trabalho em equipe.
+Além disso, focando em linguagens de programação, tive espaço para desenvolver habilidades de lógica de programação, endereçamento de telas e criação de funções a partir do JavaScript e ReactNative.
+
 
 <br>
 
@@ -119,7 +189,7 @@ A linguagem de programação Java tem vários outros objetivos, incluindo:
 
 <br>
 
-- Para mais informações acesse este site para entender melhor o funcionamento e aplicabilidade dessa tecnolgia [Java]([https://vuejs.org/](https://www.alura.com.br/cursos-online-programacao/java?gclid=CjwKCAjwvdajBhBEEiwAeMh1UzkpkuL-4lrua7qSKEgU3mx2DGLD0x08seaw__H3-jBDp6RC2I7vyRoCafQQAvD_BwE))
+- Para mais informações acesse este site para entender melhor o funcionamento e aplicabilidade dessa tecnolgia [Java](https://www.alura.com.br/cursos-online-programacao/java?gclid=CjwKCAjwvdajBhBEEiwAeMh1UzkpkuL-4lrua7qSKEgU3mx2DGLD0x08seaw__H3-jBDp6RC2I7vyRoCafQQAvD_BwE)
 
 ### `PostgreSQL ` 
 
@@ -150,7 +220,6 @@ Esta estrutura também contava com verificações de problemas nas requisições
 ```
 	
       public conexao(String databaseName) {
-		
 		
 		
 		System.out.println("Digite seu login de conexão com o banco de dados nos respectivos campos ");
