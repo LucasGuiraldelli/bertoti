@@ -99,6 +99,8 @@ export default class Converter extends React.Component {
   }
 	
 ```
+
+O código define uma classe chamada "Converter" que estende um componente React. A classe possui um construtor que inicializa o estado com as moedas e valores iniciais. A função assíncrona "converter" faz uma chamada à API para obter a taxa de conversão entre as moedas selecionadas. Em seguida, calcula o valor convertido com base na taxa e no valor da moeda de origem. O resultado é arredondado e atualizado no estado.
 	
 </details>
 
@@ -107,7 +109,8 @@ export default class Converter extends React.Component {
 ```
 words: [
       'Helena abrir conversor de medidas',
-      'Helena conversor de medidas',
+      'Helena conversor de medidas'
+	]
 	
 ```
 	
@@ -130,6 +133,9 @@ words: [
 }
 	
 ```
+
+
+Essas linhas de código definem estilos para componentes React Native. O estilo "container" configura o elemento para ocupar todo o espaço disponível com um espaçamento e margem específicos, além de uma cor de fundo branca. O estilo "Body" apenas define que o elemento ocupará todo o espaço disponível.
 	
 </details>
 
@@ -240,6 +246,8 @@ Esta estrutura também contava com verificações de problemas nas requisições
 	}
 	
 ```
+
+Essas linhas de código definem um construtor que solicita ao usuário informações de login para se conectar a um banco de dados PostgreSQL e estabelece a conexão usando essas informações.
 	
 </details>
 
@@ -257,6 +265,10 @@ Erro ao encontrar tabela de dados:
 	
 ```
 
+Essas linhas de código fazem uma verificação condicional para verificar se a variável "tableSize" está vazia. Se estiver vazia, uma mensagem "Nenhuma tabela encontrada" é impressa no console.
+
+<br>
+
 Verificação geral de busca de dados:
 	
 ```
@@ -266,6 +278,8 @@ Verificação geral de busca de dados:
 		}
 
 ```
+
+Essas linhas de código estão dentro de um bloco catch, que trata exceções do tipo Exception. Se ocorrer alguma exceção, o método "printStackTrace()" é chamado para imprimir o rastreamento da exceção no console. Em seguida, uma mensagem "Houve um problema ao requisitar o tamanho das tabelas de todos os banco de dados!" é impressa no console.
 		
 	
 </details>
@@ -465,6 +479,8 @@ Afim de melhorar o front-end, utilizei uma nova tecnologia, o Sass. Que melhora 
           		this.chamados = JSON.parse(result);
 	
 ```
+
+Essas linhas de código estão utilizando a função fetch para fazer uma requisição HTTP para a URL "https://subiter.herokuapp.com/requests" com as opções definidas em "requestOptions".
 	
 </details>
 
@@ -501,15 +517,12 @@ Afim de melhorar o front-end, utilizei uma nova tecnologia, o Sass. Que melhora 
         	headers: myHeaders,
         	redirect: "follow",
       	};
+	}	
+}
 
-      	fetch("https://subiter.herokuapp.com/requests", requestOptions)
-        		.then((response) => response.text())
-        		.then((result) => {
-          		this.chamados = JSON.parse(result);
-        	});
-    	    },
-  	},
 ```
+
+Esse trecho de código exporta um componente Vue chamado "ChamadosView" que utiliza vários outros componentes. Ele possui uma propriedade "chamados" que é inicializada como uma matriz vazia. Além disso, contém um método chamado "load" que faz uma requisição GET para obter dados de uma tabela, utilizando um token de autorização.
 	
 </details>
 
@@ -542,9 +555,13 @@ Afim de melhorar o front-end, utilizei uma nova tecnologia, o Sass. Que melhora 
       ],
     };
   },
+}
 
 		
 ```
+
+
+Esse trecho de código define um componente Vue chamado "AgendamentosComponent" que recebe um array chamado "agendamentos" como propriedade. Ele possui um valor vazio para a propriedade "search" e define as configurações dos cabeçalhos de uma tabela.
 </details>
 
 <details><summary>Exemplo de arquivo de desgin do Sass</summary>
@@ -568,6 +585,8 @@ Afim de melhorar o front-end, utilizei uma nova tecnologia, o Sass. Que melhora 
 }
 
 ```
+
+Essas linhas de código definem estilos CSS para um ícone de chat flutuante no canto inferior direito da tela. O ícone possui um formato circular, fundo azul, texto branco e um tamanho de 50x50 pixels. É clicável, exibindo um cursor de ponteiro.
 	
 </details>
 
