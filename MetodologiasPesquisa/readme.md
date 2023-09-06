@@ -2,13 +2,20 @@
 
 ## Introdução
 
-Olá! me chamo Lucas Guiraldelli, sou nascido e criado no ABC paulista (região metropolitana de São Paulo) ao longo da vida, fui me interessando por tecnologia através dos jogos de videogame e desde sempre, por ser uma pessoa muito curiosa, queria entender como as coisas funcionavam por trás da máquina. Então iniciei a fazer alguns cursos relacionados a área quando tinha 11 anos. Aos 13 tive meu primeiro contato com a robótica e programação. Conforme fui me desenvolvendo nos cursos, e na vida, foi aumentando meu interesse sobre tecnologia e aos 15 anos iniciei o curso técnico voltado para Análise e Desenvolvimento de Sistemas, que foi um divisor de àguas para mim, e fundamental para que eu escolhesse o foco do meu próximo passo na carreira, a faculdade. Como nada foi fácil até então, na faculdade não poderia ser diferente, escolhi seguir na àrea de banco de dados, faculdade que só existia a oportunidade em são José dos Campos. Como meu final do ensino médio, o início da faculdade (FATEC Prof. Jessen Vidal) foi marcado pela pandemia da Covid-19, o que me daria certeza de ano no formato EAD (Ensino a distância), e com isso um tempo para que eu conseguisse um emprego para me manter em outra cidade. Depois de muitos processos seletivos, no inicio de 2022 consegui uma vaga, como estágiário na Johnson&Johnson, empresa que estou até hoje no setor de Data Science. 
-Hoje tenho 20 anos e trabalho como Cientista de Dados na maior empresa de saúde do mundo (Johnson&Johnson). Meus principais hobbies são: jogar futebol, jogar video game e sair com meus amigos. Um hobby muito recente é jogar sinuca, confesso que ainda estou aprendendo, porém melhorando.
+
+![image](https://user-images.githubusercontent.com/64923139/197658220-a1e1a80a-8c97-44dc-9c65-589788f2841f.png)
+
+
+
+
+Olá! me chamo Lucas Guiraldelli, sou nascido e criado no ABC paulista (região metropolitana de São Paulo) ao longo da vida, fui me interessando por tecnologia através dos jogos de videogame e desde sempre, por ser uma pessoa muito curiosa, queria entender como as coisas funcionavam por trás da máquina. Então iniciei a fazer alguns cursos relacionados a área quando tinha 11 anos. Aos 13 tive meu primeiro contato com a robótica e programação. Conforme fui me desenvolvendo nos cursos, e na vida, foi aumentando meu interesse sobre tecnologia e aos 15 anos iniciei o curso técnico voltado para Análise e Desenvolvimento de Sistemas, que foi um divisor de àguas para mim, e fundamental para que eu escolhesse o foco do meu próximo passo na carreira, a faculdade.<br> Como nada foi fácil até então, na faculdade não poderia ser diferente, escolhi seguir na àrea de banco de dados, faculdade que só existia a oportunidade em são José dos Campos. Como meu final do ensino médio, o início da faculdade (FATEC Prof. Jessen Vidal) foi marcado pela pandemia da Covid-19, o que me daria certeza de ano no formato EAD (Ensino a distância), e com isso um tempo para que eu conseguisse um emprego para me manter em outra cidade. Depois de muitos processos seletivos, no inicio de 2022 consegui uma vaga, como estágiário na Johnson&Johnson, empresa que estou até hoje no setor de Data Science. 
+Hoje tenho 20 anos e trabalho como Cientista de Dados na maior empresa de saúde do mundo. <br> 
+Meus principais hobbies são: jogar futebol, jogar video game e sair com meus amigos. Um hobby muito recente é jogar sinuca, confesso que ainda estou aprendendo, porém melhorando.
 
 
 <br>
 
-![image](https://user-images.githubusercontent.com/64923139/197658220-a1e1a80a-8c97-44dc-9c65-589788f2841f.png)
+
 
 
 
