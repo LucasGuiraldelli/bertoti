@@ -668,12 +668,11 @@ Ao utilizar GitHub Actions para integração contínua, os desenvolvedores podem
 
 Os testes unitários são testes automatizados que validam a interface do usuário, as interações do usuário e a lógica do lado do cliente de um aplicativo da web. Eles são importantes porque garantem a consistência da IU, validam as interações do usuário, verificam a lógica do lado do cliente, garantem a compatibilidade entre navegadores e dispositivos, validam o design responsivo e evitam regressões. Os testes front-end contribuem para fornecer uma experiência de usuário de alta qualidade e livre de bugs em um projeto web.
 
+<br>
 
 ### Contribuições Pessoais:
 Neste projeto fui responsável pela organização da equipe, manejando o time para que tivéssemos tempo para aprender as novas tecnologias propostas;desenvolvimento da pipeline de execução tanto do front-end quanto do back-end, lidando com orquestações utilizando o GithubActions; desenvolvimento de testes unitários para o front-end.
 
-</details>
-</details>
 <details><summary>Issue Control:</summary> 
  
 O controle de problemas em um projeto DevOps refere-se ao gerenciamento e resolução de problemas ou dificuldades que surgem durante o desenvolvimento, implementação e operação contínua de um sistema ou software. Envolve a identificação proativa de problemas, registro e rastreamento de problemas, priorização, resolução, comunicação e aprendizado contínuo. O controle eficaz de problemas ajuda as equipes a identificar e resolver problemas rapidamente, melhorando a qualidade do software entregue e a satisfação do usuário.
@@ -747,4 +746,88 @@ describe('toHome', () => {
 Neste projeto, tive como um grande desafio a organização de tempo. Usamos muitas tecnologias que até então eram novas para o time, e como Scrum Master tive que manejar a equipe para que priorizasse as tarefas corretas e que pudesse se desenvolver. Além disso, também instrui a equipe para que conseguíssemos utilizar as metologias de orquestação junto ao CI/CD com unit-tests, garantindo a qualidade e durabilidade do software que estávamos desenvolvendo. Montei toda parte de pipeline de execução de códigos utilizando o GithubActions, junto com validações de qualidade e seguranã de software do próprio Github.
 
 <br>
+
+<br>
+
+
+# Projeto 5: 2º Semestre de 2023
+
+### Parceiro acadêmico: <a href="https://visionaespacial.com/">Visiona</a>
+
+<details><summary>Logo da Empresa</summary>
+<br><br>
+
+<img src ="https://visionaespacial.com/wp-content/themes/VisionaEspacial/assets/img/logo-branca-completa.svg"/></details>
+
+<br>
+
+## Objetivo do projeto:
+
+O Proagro é um programa governamental que financia atividades agrícolas de pequenos e médios produtores no Brasil. Ao participar, o produtor precisa fornecer detalhes sobre sua atividade agrícola e localização das áreas cultivadas. Esses dados são armazenados em tabelas e em um banco de dados. Além disso, informações sobre técnicas de cultivo, tipos de plantas, potencial de produção, dados de plantio e colheita são essenciais. O uso do sensoriamento remoto tem sido eficaz para o monitoramento das atividades agrícolas, e os dados do Proagro são valiosos para a criação de modelos de inteligência artificial baseados em informações obtidas por satélite. O desafio é apresentar esses dados de forma clara e intuitiva em um sistema de informação geográfica, combinando informações sobre as operações agrícolas e dados de sensoriamento remoto.
+
+
+## Tecnologias Utilizadas:
+
+### `Python` 
+
+Python é uma linguagem de programação versátil e poderosa. Sua sintaxe clara e legível torna-a ideal tanto para iniciantes quanto para programadores experientes. Oferece uma ampla gama de bibliotecas e frameworks, permitindo o desenvolvimento em diversas áreas, desde aplicações web até inteligência artificial e análise de dados. Sua comunidade ativa contribui constantemente com novas bibliotecas e recursos, tornando-a uma das linguagens mais populares em vários domínios da computação.
+
+<br>
+
+### `Flask` 
+
+Flask é um framework web minimalista para Python, o que significa que oferece o mínimo necessário para criar aplicações web. Sua simplicidade e extensibilidade permitem que desenvolvedores construam aplicações web de forma rápida e eficiente. O Flask segue a filosofia de "faça você mesmo" (do inglês, "do it yourself") e é bastante flexível, permitindo a integração de outras bibliotecas e ferramentas conforme a necessidade do projeto.
+
+<br>
+
+### `Postgres` 
+
+O PostgreSQL, ou simplesmente Postgres, é um sistema de gerenciamento de banco de dados relacional (RDBMS) robusto e confiável. É conhecido por sua conformidade com os padrões SQL, suporte a transações ACID (Atomicidade, Consistência, Isolamento, Durabilidade) e por oferecer recursos avançados, como chaves estrangeiras, gatilhos, procedimentos armazenados e replicação. É amplamente utilizado em aplicações que requerem confiabilidade e integridade dos dados.
+
+<br>
+
+### `Postgis` 
+
+O PostGIS é uma extensão espacial para o PostgreSQL, permitindo que o banco de dados lide com dados geoespaciais. Ele adiciona suporte para objetos geográficos e permite consultas e análises espaciais avançadas. Com o PostGIS, é possível armazenar informações sobre localização, realizar cálculos de distância, consultar áreas específicas e realizar análises geoespaciais complexas.
+
+<br>
+
+### `MongoDB`
+
+MongoDB é um banco de dados NoSQL orientado a documentos. Ele difere dos bancos de dados relacionais ao armazenar dados em documentos flexíveis (geralmente em formato JSON), em vez de tabelas. Isso permite uma escalabilidade mais simples e uma maior flexibilidade para lidar com dados não estruturados ou semiestruturados. O MongoDB é frequentemente utilizado em aplicações web e móveis, especialmente em casos onde a estrutura dos dados pode variar e crescer ao longo do tempo. Sua capacidade de replicação e distribuição também o torna adequado para ambientes de grande escala.
+
+<br>
+
+### Contribuições Pessoais:
+Neste projeto fui responsável pelo desenvolvimento do back-end. Isso inclui: validação e verificação de qualidade dos dados, desenvolvimento de funções no python, criação de endpoints usando flask, lógica de login usando JWT. Também fui responsável pela estrutação de base de dados utilizando Postgres e Postgis para viablizar a leitura de dados de imagem da nossa base. Tratamento de dados e lógica de envio de informações através do HTTP. Criação de modelos de Machine Learning para previsão de séries temporais e verificação de situação de cada gleba(pedaço de terra).
+
+<details><summary>Função de login e definição de rota e verificação de criptogafia:</summary> 
+
+```
+@app.route('/login', methods=['POST'])
+def login(email_in=None, senha_in=None):
+    
+    if email_in != None or senha_in != None:
+        email = email_in
+        senha = senha_in
+    else: 
+        data = request.get_json()
+        email = data.get('email')
+        senha = data.get('senha')
+
+    # email padrão -> admin@admin.com, senha padrão -> admin123
+    User = user.query.filter_by(email=email).first()
+
+    if User and bcrypt.checkpw(senha.encode('utf-8'), User.senha.encode('utf-8')):
+        # Credenciais válidas, crie um token JWT
+        access_token = create_access_token(identity=User.id)
+        return jsonify({'access_token': access_token}), 200
+    else:
+        return jsonify({'message': 'Credenciais inválidas.'}), 401
+```
+
+<br>
+
+</details>
+
 
