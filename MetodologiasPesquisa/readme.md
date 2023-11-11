@@ -297,7 +297,7 @@ Essas linhas de código estão dentro de um bloco catch, que trata exceções do
 
 ## Aprendizados efetivos:
 
-Neste projeto, tive a oportunidade de atuar como P.O. (Product Owner) do projeto, tendo oportunidade de desenvolver habilidades de Soft Skills, principalmente de comunicação para definição de planejamento de entregas e organização de equipe. 
+Neste projeto, tive a oportunidade de atuar como _PO (Product Owner)_ do projeto, tendo oportunidade de desenvolver habilidades de Soft Skills, principalmente de comunicação para definição de planejamento de entregas e organização de equipe. 
 Como desenvolvedor focado em back-end, pude focar em tarefas voltadas ao preparo de ambiente para utiização das tecnologias citadas acima, estruturação de repositórios e pastas para utilização do Java. Também o desenvolvimento de funções em Java, o que agregou muito para o meu entendimento de como algoritmos de programação funcionam e a importância de ter uma estrutura e regras de acesso muito bem definidas para que a aplicação funcione da forma robusta.
 Voltado para conhecimentos de DBA (Database Administrator), pude desenvolver habilidades de acesso a banco de dados utilizando strings de conexão, realizar inserções e consultas dos dados de forma segura.
 
@@ -605,3 +605,146 @@ Essas linhas de código definem estilos CSS para um ícone de chat flutuante no 
 ## Aprendizados efetivos:
 
 Neste projeto, tive a oportunidade de atuar em uma nova posição desde o meu ingresso na Fatec, sendo desenvolvedor focado em front-end e requisições de dados. Para isso, utilizamos como ferramenta principal o Vue.js, uma tecnologia nova para mim, que ampliou minha forma de pensar. Com ela, pude realizar tarefas variadas, desde o desenvolvimento de interfaces e design de telas até a criação de uma estrutura que permitiu a interação e a troca de informações de maneira eficiente em conjunto com o back-end. Essa experiência contribuiu para o aprimoramento das minhas habilidades e consolidou meu conhecimento nesse campo da programação.
+
+<br>
+
+<br>
+
+
+# Projeto 5: 1º Semestre de 2023
+
+### Parceiro acadêmico: <a href="https://www.midall.com.br/">MidAll</a>
+
+<details><summary>Logo da Empresa</summary>
+<br><br>
+<img src ="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png"/></details>
+
+<br>
+
+## Objetivo do projeto:
+
+Automatizar a jornada de download de arquivos, armazenados em uma plataforma de vídeo, efetuando essa transferência para a nuvem, através do desenvolvimento de um serviço tipo aplicativo, tendo como funcionalidade junto ao usuário apenas um menu de configuração, que terá os parâmetros necessários para que o serviço de download seja executado. processar automaticamente, gerando alertas caso ocorram erros de processamento. Salvar metadados de arquivos para construção de dashboard de monitoramento da execução do serviço e posterior análise de resultados e indicadores (ex.: quantidade de arquivos transferidos, quantidade de bytes transferidos, tempo de transferência, etc.).
+
+
+## Tecnologias Utilizadas:
+
+### `Vue.js ` 
+
+Vue.js é amplamente utilizado em aplicações web para o desenvolvimento do front-end. Sua simplicidade, flexibilidade e eficiência o tornam uma escolha popular para a criação de interfaces de usuário interativas e responsivas.
+
+No contexto do front-end, o Vue.js facilita a criação de componentes reutilizáveis que podem ser compostos para formar interfaces complexas. Isso promove uma estrutura organizada e modular, permitindo aos desenvolvedores dividir o código em partes menores e mais gerenciáveis. Essa abordagem facilita a manutenção do código, melhorando a legibilidade e reusabilidade.
+
+No que diz respeito à criação de estrutura de requisições, o Vue.js é uma biblioteca focada principalmente no desenvolvimento de interfaces de usuário. Embora o Vue.js possa lidar com solicitações HTTP por meio de bibliotecas de terceiros, como o Axios, a criação de uma estrutura completa de requisições vai além do escopo principal do Vue.js. Nesse caso, é comum combinar o Vue.js com outras bibliotecas ou frameworks específicos para manipulação de requisições, como o Vue Resource ou o Vuex, dependendo dos requisitos do projeto.
+
+O Vue.js oferece uma base sólida para o desenvolvimento de interfaces de usuário eficientes e responsivas. 
+
+- Para mais informações acesse o site oficial da ferramenta [Vue.js](https://vuejs.org/)
+
+<br>
+
+### `Zube ` 
+
+O Zube é uma plataforma que se concentra na gestão de problemas (issues) de projetos de software, oferecendo uma integração eficiente com o GitHub. Ele permite que equipes gerenciem e organizem suas tarefas, acompanhando o progresso de diferentes problemas, desde a identificação até a resolução. A integração com o GitHub é uma das características-chave, possibilitando a sincronização direta das issues entre as duas plataformas, simplificando o fluxo de trabalho para desenvolvedores e equipes de projeto. Isso significa que as atualizações feitas no Zube refletem-se automaticamente no GitHub e vice-versa, mantendo todos os envolvidos atualizados e alinhados com as mudanças e progresso do projeto.
+
+<br>
+
+### `DevOps ` 
+
+DevOps é uma abordagem de desenvolvimento de software que combina equipes de desenvolvimento e operações para agilizar processos e fornecer software de alta qualidade com mais eficiência. Ele promove colaboração, automação e melhoria contínua. Os benefícios do DevOps incluem maior colaboração e comunicação, integração e entrega contínuas, tempo de lançamento no mercado mais rápido, melhor qualidade de software, maior confiabilidade e estabilidade, escalabilidade e flexibilidade, monitoramento e feedback contínuos e otimização de custos. No geral, o DevOps alinha equipes, acelera a entrega de software, melhora a qualidade e aumenta a satisfação do cliente.
+
+<br>
+
+### `Github Actions ` 
+
+GitHub Actions é uma ferramenta de automação fornecida pelo GitHub para integração contínua. Ele permite que os desenvolvedores criem fluxos de trabalho, que são sequências de ações que automatizam tarefas como construção, teste e implantação de projetos de software. Os fluxos de trabalho são acionados por eventos, como alterações de código, garantindo um processo padronizado para integração de código.
+
+A integração contínua no GitHub Actions envolve a integração automática de alterações de código em um repositório compartilhado. Os fluxos de trabalho podem ser acionados por push de código ou pull requests, permitindo a detecção precoce de problemas ou conflitos. GitHub Actions oferece uma ampla variedade de ações pré-construídas e oferece suporte a ações personalizadas, permitindo que os desenvolvedores criem fluxos de trabalho personalizados. Ele se integra perfeitamente a outros recursos do GitHub, aprimorando a experiência de desenvolvimento.
+
+Ao utilizar GitHub Actions para integração contínua, os desenvolvedores podem melhorar a qualidade do software, reduzir tarefas manuais e aumentar a produtividade.
+
+<br>
+
+### `Unit tests ` 
+
+Os testes unitários são testes automatizados que validam a interface do usuário, as interações do usuário e a lógica do lado do cliente de um aplicativo da web. Eles são importantes porque garantem a consistência da IU, validam as interações do usuário, verificam a lógica do lado do cliente, garantem a compatibilidade entre navegadores e dispositivos, validam o design responsivo e evitam regressões. Os testes front-end contribuem para fornecer uma experiência de usuário de alta qualidade e livre de bugs em um projeto web.
+
+
+### Contribuições Pessoais:
+Neste projeto fui responsável pela organização da equipe, manejando o time para que tivéssemos tempo para aprender as novas tecnologias propostas;desenvolvimento da pipeline de execução tanto do front-end quanto do back-end, lidando com orquestações utilizando o GithubActions; desenvolvimento de testes unitários para o front-end.
+
+</details>
+</details>
+<details><summary>Issue Control:</summary> 
+ 
+O controle de problemas em um projeto DevOps refere-se ao gerenciamento e resolução de problemas ou dificuldades que surgem durante o desenvolvimento, implementação e operação contínua de um sistema ou software. Envolve a identificação proativa de problemas, registro e rastreamento de problemas, priorização, resolução, comunicação e aprendizado contínuo. O controle eficaz de problemas ajuda as equipes a identificar e resolver problemas rapidamente, melhorando a qualidade do software entregue e a satisfação do usuário.
+Para controle de problemas neste projeto, utilizamos metodologias de documentação e integração entre softwares como base para documentação, em especial:
+
+- Github -> Utilizamos o github para criar um quadro com as tarefas definidas para cada sprint, além de documentar cada uma delas como problemas dentro do github. O que nos permite criar atribuições desde a criação de um branch até o link nos commits. [Board link](https://github.com/orgs/PhatomFatec/projects/5/views/1) 
+
+- [Zube](https://zube.io/) -> Utilizamos o zube em conjunto com o github, promovendo uma integração muito valiosa para documentação e controle de questões relacionadas a este projeto. Da aplicação da metodologia ágil utilizada
+
+- Exemplo de material: [IssueControl](https://www.canva.com/design/DAFkSjejDHU/45xN9H1R4W8JAcRQjU4I_Q/edit?utm_content=DAFkSjejDHU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+<br>
+
+</details>
+
+</details>
+<details><summary>Orquestração utilizando GithubActions: </summary> 
+ 
+```
+
+name: Unit test back
+
+on:
+  push:
+     branches: [ $default-branch ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up JDK 17
+      uses: actions/setup-java@v1
+      with:
+        java-version: '17'
+    - name: run tests with Maven
+      run: mvn test
+```
+
+<br>
+
+</details>
+</details>
+<details><summary>Front-end test: </summary> 
+ 
+```
+describe('toHome', () => {
+  test('deve mostrar a seção de home e esconder as outras', () => {
+    document.body.innerHTML = `
+    <div class="home"></div>
+    `
+    toHome()
+
+    const home = document.querySelector('.home')
+
+    expect(home.style.display).toBe('flex')
+
+  })
+})
+
+```
+<br>
+
+</details>
+
+
+## Aprendizados efetivos:
+
+Neste projeto, tive como um grande desafio a organização de tempo. Usamos muitas tecnologias que até então eram novas para o time, e como Scrum Master tive que manejar a equipe para que priorizasse as tarefas corretas e que pudesse se desenvolver. Além disso, também instrui a equipe para que conseguíssemos utilizar as metologias de orquestação junto ao CI/CD com unit-tests, garantindo a qualidade e durabilidade do software que estávamos desenvolvendo. Montei toda parte de pipeline de execução de códigos utilizando o GithubActions, junto com validações de qualidade e seguranã de software do próprio Github.
+
+<br>
+
