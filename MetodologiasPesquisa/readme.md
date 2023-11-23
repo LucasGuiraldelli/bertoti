@@ -18,7 +18,6 @@ Meus principais hobbies são: jogar futebol, jogar video game e sair com meus am
 
 
 
-
 # Projeto 1: 1º Semestre de 2021
 
 ### Como primeiro projeto da Faculdade, neste semestre não tivemos uma empresa externa como parceira para desenvolvimento de uma dor real. 
@@ -44,25 +43,18 @@ De cidades históricas aos grandes centros urbanos o app foi criado por nós, pa
 
 ## Tecnologias Utilizadas:
 
-### `ReactNative ` 
+### ` React Native ` 
 
-O React Native é um framework de desenvolvimento de aplicativos móveis que permite criar aplicativos nativos para iOS e Android usando JavaScript. Ele utiliza uma camada de abstração sobre os elementos de interface de usuário nativos, permitindo que os desenvolvedores criem componentes reutilizáveis. Esses componentes são traduzidos em elementos nativos da interface do usuário, proporcionando uma experiência nativa. O React Native permite compartilhar código entre as plataformas, resultando em maior eficiência e produtividade. Seu propósito é oferecer uma maneira eficiente de criar aplicativos móveis nativos, usando JavaScript e aproveitando recursos nativos do dispositivo. É uma opção popular para o desenvolvimento rápido de aplicativos móveis com uma experiência do usuário nativa.
+O React Native é um framework para desenvolvimento de aplicativos móveis que permite criar apps nativos para iOS e Android usando JavaScript. Ele usa uma camada de abstração sobre os elementos de interface nativos, permitindo a criação de componentes reutilizáveis. Esses componentes são traduzidos em elementos nativos da interface, proporcionando uma experiência nativa. O React Native facilita o compartilhamento de código entre plataformas, aumentando eficiência e produtividade. Seu objetivo é oferecer uma maneira eficaz de criar aplicativos móveis nativos, usando JavaScript e aproveitando recursos nativos do dispositivo. É uma escolha popular para o desenvolvimento rápido de apps móveis com experiência do usuário nativa.
 
+- Para mais informações, acesse o [site oficial do React Native](https://reactnative.dev/)
 
-<br>
+### ` JavaScript ` 
 
--  Para mais informações acesse o site oficial da ferramenta [ReactNative](https://reactnative.dev/)
+JavaScript é uma linguagem de programação amplamente usada no desenvolvimento web. Suas principais utilidades incluem manipulação do DOM, validação de formulários, requisições assíncronas, manipulação de dados, criação de animações e interação com APIs externas. Com bibliotecas e frameworks, é possível criar efeitos visuais, jogos web e integrar funcionalidades de terceiros. JavaScript é suportado pelos navegadores modernos e é uma escolha poderosa para criar páginas interativas, responsivas e dinâmicas.
 
-<br>
+- Para mais informações, acesse [este site](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) para entender melhor o funcionamento e aplicabilidade dessa tecnologia.
 
-### `JavaScript ` 
-
-JavaScript é uma linguagem de programação amplamente usada no desenvolvimento web. Suas principais usabilidades incluem a manipulação do DOM, validação de formulários, requisições assíncronas, manipulação de dados, criação de animações e interação com APIs externas. Com bibliotecas e frameworks, é possível criar efeitos visuais, jogos web e integrar funcionalidades de terceiros. JavaScript é suportado pelos navegadores modernos e é uma escolha poderosa para criar páginas interativas, responsivas e dinâmicas.
-
-
-<br>
-
--  Para mais informações acesse este site para entender melhor o funcionamento e aplicabilidade dessa tecnolgia [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 <br>
 
@@ -187,38 +179,23 @@ Tendo isso em mente, o objetivo da equipe é desenvolver um software integrado q
 
 ## Tecnologias Utilizadas:
 
-### `Java ` 
+### ` Java ` 
 
-A linguagem de programação Java possui várias finalidades. É usada para desenvolvimento de aplicativos de desktop com interfaces gráficas, aplicativos web dinâmicos e escaláveis, aplicativos móveis para Android, aplicativos empresariais confiáveis e de alto desempenho, sistemas embarcados como IoT, desenvolvimento de jogos e aplicações científicas e análise de dados. Sua versatilidade permite seu uso em uma ampla gama de aplicações.
+A linguagem de programação Java é versátil, sendo utilizada em diversas aplicações, como o desenvolvimento de aplicativos de desktop, web, móveis (Android), sistemas empresariais, IoT, jogos e análise de dados. Sua flexibilidade a torna uma escolha abrangente para uma variedade de aplicações.
 
-A linguagem de programação Java tem vários outros objetivos, incluindo:
+- Para mais informações, acesse [este site](https://www.alura.com.br/cursos-online-programacao/java?gclid=CjwKCAjwvdajBhBEEiwAeMh1UzkpkuL-4lrua7qSKEgU3mx2DGLD0x08seaw__H3-jBDp6RC2I7vyRoCafQQAvD_BwE)
 
-1. Desenvolvimento de aplicativos de desktop com a biblioteca Swing e AWT.
-2. Desenvolvimento de aplicativos web usando JavaServer Pages (JSP) e Servlets, além de frameworks como Spring e JSF.
-3. Desenvolvimento de aplicativos móveis nativos para Android.
-4. Desenvolvimento de aplicativos empresariais robustos e escaláveis.
-5. Desenvolvimento de sistemas embarcados e aplicativos de IoT usando Java ME.
-6. Desenvolvimento de jogos, especialmente para dispositivos móveis, com bibliotecas como libGDX.
-7. Desenvolvimento de aplicações científicas e análise de dados usando bibliotecas como Apache Spark e Hadoop.
+### ` PostgreSQL ` 
 
-<br>
+O PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto, conhecido por sua estabilidade, escalabilidade e flexibilidade. Suporta SQL completo, transações ACID e oferece recursos avançados para projetos de pequeno a grande porte.
 
-- Para mais informações acesse este site para entender melhor o funcionamento e aplicabilidade dessa tecnolgia [Java](https://www.alura.com.br/cursos-online-programacao/java?gclid=CjwKCAjwvdajBhBEEiwAeMh1UzkpkuL-4lrua7qSKEgU3mx2DGLD0x08seaw__H3-jBDp6RC2I7vyRoCafQQAvD_BwE)
+- Para mais informações, acesse o [site oficial do PostgreSQL](https://www.postgresql.org/)
 
-### `PostgreSQL ` 
+### ` SQLite ` 
 
-O PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto. Ele fornece um ambiente robusto e confiável para armazenar, organizar e gerenciar dados estruturados. O PostgreSQL suporta SQL completo, incluindo consultas complexas, transações ACID (Atomicidade, Consistência, Isolamento e Durabilidade) e possui recursos avançados, como indexação, gatilhos, visões e funções armazenadas. É conhecido por sua estabilidade, escalabilidade e flexibilidade, sendo amplamente utilizado em uma variedade de aplicativos e cenários, desde pequenos projetos até sistemas empresariais de alto tráfego.
+O SQLite é um sistema de gerenciamento de banco de dados relacional de código aberto, leve e rápido, amplamente utilizado em aplicativos embarcados e de pequeno porte. Sua característica de ser uma biblioteca incorporada o torna uma escolha popular para casos que demandam simplicidade e eficiência.
 
-
-- Para mais informações acesse o site oficial da ferramenta [PostgreSQL](https://www.postgresql.org/)
-
-<br>
-
-### `SQLite ` 
-
-O SQLite é um sistema de gerenciamento de banco de dados relacional de código aberto, que é amplamente utilizado em aplicativos embarcados e de pequeno porte. Diferente de outros sistemas de banco de dados, o SQLite é uma biblioteca que pode ser incorporada diretamente nas aplicações, sem a necessidade de um servidor separado. Ele é conhecido por ser leve, rápido, autossuficiente e não requer configuração ou administração complexa. O SQLite suporta a maioria dos recursos de banco de dados tradicionais, como tabelas, consultas SQL, índices e transações. É uma opção popular para aplicativos móveis, navegadores da web e outros casos em que a simplicidade e a eficiência são prioridades.
-
-- Para mais informações acesse o site oficial da ferramenta [SQLite](https://sqlite.org/index.html)
+- Para mais informações, acesse o [site oficial do SQLite](https://sqlite.org/index.html)
 
 <br>
 
@@ -321,28 +298,23 @@ Ferramenta para criar promoções de E-commerce, onde as mecânicas de promoçõ
 Atualmente implementamos e apresentamos o cadastro dos produtos dentro de promoções registradas dentro do servidor/banco de dados, utilizando operadores lógicos para criar diferentes mecânicas de promoções, os descontos são aplicados dentro da sacola de compras e possui uma visualização dedicada para conferência e escolha de promoções.
 
 Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e também para editar, deletar, interromper ou ativar promoções de uma visualização de maneira prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar quais os status de produtos e promoções.
-<br><br>
 
+<br>
 
 ## Tecnologias Utilizadas:
 
-### `JQuery ` 
+### ` jQuery ` 
 
-jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
+jQuery, uma biblioteca JavaScript criada por John Resig em 2006, é licenciada como software de código aberto pelo Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é aprimorar dinamismo e usabilidade em páginas da web, associando-se aos elementos JavaScript em HTML. Suas linhas de código simplificam scripts client-side, tornando-a uma das bibliotecas mais populares entre os desenvolvedores. Acesse a [documentação oficial aqui](https://jquery.com/).
 
-Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
+### ` Hibernate ` 
 
-### `Hibernate ` 
+O Hibernate ORM facilita o desenvolvimento de aplicativos cujos dados persistem ao longo do processo. Como um framework Object/Relational Mapping (ORM), gerencia a persistência de dados em bancos de dados relacionais via JDBC. Além de sua própria API "nativa", o Hibernate é uma implementação da especificação Java Persistence API (JPA), sendo compatível com ambientes que suportam JPA, como aplicativos Java SE, servidores de aplicativos Java EE e contêineres Enterprise OSGi.
 
-O Hibernate ORM permite que os desenvolvedores escrevam aplicativos com mais facilidade cujos dados sobrevivem ao processo do aplicativo. Como um framework Object/Relational Mapping (ORM), o Hibernate se preocupa com a persistência de dados quando se aplica a bancos de dados relacionais (via JDBC).
-Além de sua própria API "nativa", o Hibernate também é uma implementação da especificação Java Persistence API (JPA). Como tal, pode ser facilmente usado em qualquer ambiente que suporte JPA, incluindo aplicativos Java SE, servidores de aplicativos Java EE, contêineres Enterprise OSGi, etc.
+### ` Quarkus ` 
 
+Desenvolvido para atender às demandas de aplicativos modernos e nativos da nuvem, o Quarkus é uma estrutura Java nativa do Kubernetes, adaptada para GraalVM e HotSpot. Criado a partir das melhores bibliotecas e padrões Java, o Quarkus tem como objetivo fazer do Java a principal plataforma em Kubernetes e ambientes sem servidor. Oferece aos desenvolvedores uma estrutura para atender a diversas arquiteturas de aplicativos distribuídos, superando os desafios das pilhas Java tradicionais.
 
-### `Quarkus ` 
-
-As pilhas Java tradicionais foram projetadas para aplicativos monolíticos com longos tempos de inicialização e grandes requisitos de memória em um mundo onde a nuvem, os contêineres e o Kubernetes não existiam. Os frameworks Java precisavam evoluir para atender às necessidades desse novo mundo.
-
-O Quarkus foi criado para permitir que desenvolvedores Java criem aplicativos para um mundo moderno e nativo da nuvem. Quarkus é uma estrutura Java nativa do Kubernetes adaptada para GraalVM e HotSpot, criada a partir das melhores bibliotecas e padrões Java. O objetivo é tornar o Java a plataforma líder em Kubernetes e ambientes sem servidor, oferecendo aos desenvolvedores uma estrutura para atender a uma ampla variedade de arquiteturas de aplicativos distribuídos.
 
 <br>
 
@@ -445,32 +417,32 @@ Durante a segunda sprint tivemos que fazer uma reestruturação na equipe, onde 
 
 ## Objetivo do projeto:
 
-Tiveos um desafio de sincronização dos dados administrativos, financeiros e operacionais referentes aos serviços prestados pela empresa. A falta de organização dos dados acarreta lentidão para atender chamados, e confusão na interpretação dos indicadores comerciais e financeiros.
+Tivemos um desafio de sincronização dos dados administrativos, financeiros e operacionais referentes aos serviços prestados pela empresa. A falta de organização dos dados acarreta lentidão no atendimento de chamados e confusão na interpretação dos indicadores comerciais e financeiros.
 
-Desenvolvemos uma plataforma web que organiza todos os dados referentes aos serviços prestados pela empresa, de forma interpretada, cujo o principal objetivo é criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma ponta a ponta entre a relação do cliente com o suporte e, suporte com a do administrador que, trabalha na criação e sincronização dos dados em um único lugar.
+Desenvolvemos uma plataforma web que organiza todos os dados relacionados aos serviços prestados pela empresa de forma interpretada, tendo como principal objetivo criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma integrada entre a relação do cliente com o suporte e o suporte com o administrador, que trabalha na criação e sincronização dos dados em um único lugar.
 
 <br>
 
 ## Tecnologias Utilizadas:
 
-### `Vue.js ` 
+### ` Vue.js ` 
 
-Vue.js é amplamente utilizado em aplicações web para o desenvolvimento do front-end. Sua simplicidade, flexibilidade e eficiência o tornam uma escolha popular para a criação de interfaces de usuário interativas e responsivas.
+Vue.js é uma escolha popular no desenvolvimento front-end devido à sua simplicidade, flexibilidade e eficiência para criar interfaces de usuário interativas e responsivas.
 
-No contexto do front-end, o Vue.js facilita a criação de componentes reutilizáveis que podem ser compostos para formar interfaces complexas. Isso promove uma estrutura organizada e modular, permitindo aos desenvolvedores dividir o código em partes menores e mais gerenciáveis. Essa abordagem facilita a manutenção do código, melhorando a legibilidade e reusabilidade.
+No front-end, o Vue.js simplifica a criação de componentes reutilizáveis, promovendo uma estrutura organizada e modular. Isso facilita a manutenção, aumentando a legibilidade e reusabilidade do código.
 
-No que diz respeito à criação de estrutura de requisições, o Vue.js é uma biblioteca focada principalmente no desenvolvimento de interfaces de usuário. Embora o Vue.js possa lidar com solicitações HTTP por meio de bibliotecas de terceiros, como o Axios, a criação de uma estrutura completa de requisições vai além do escopo principal do Vue.js. Nesse caso, é comum combinar o Vue.js com outras bibliotecas ou frameworks específicos para manipulação de requisições, como o Vue Resource ou o Vuex, dependendo dos requisitos do projeto.
+Embora o Vue.js possa lidar com solicitações HTTP usando bibliotecas como o Axios, para estruturas completas de requisições, é comum combinar o Vue.js com outras bibliotecas específicas, como Vue Resource ou Vuex, dependendo dos requisitos do projeto.
 
-O Vue.js oferece uma base sólida para o desenvolvimento de interfaces de usuário eficientes e responsivas. 
+O Vue.js oferece uma base sólida para desenvolver interfaces de usuário eficientes e responsivas.
 
-- Para mais informações acesse o site oficial da ferramenta [Vue.js](https://vuejs.org/)
+- Para mais informações, acesse o [site oficial do Vue.js](https://vuejs.org/)
 
 <br>
 
 ### `SASS ` 
-Sass (Syntactically Awesome Style Sheets) é uma linguagem de folhas de estilo que melhora o CSS, oferecendo recursos como variáveis, aninhamento, mixins, herança, importação, funções e operações matemáticas. Ele precisa ser compilado para CSS antes de ser interpretado pelos navegadores. O Sass é útil para front-end, facilitando a escrita e organização do código CSS, resultando em um fluxo de trabalho mais eficiente e produtivo.
+Sass (Syntactically Awesome Style Sheets) é uma linguagem de folhas de estilo que aprimora o CSS, introduzindo recursos como variáveis, aninhamento, mixins, herança, importação, funções e operações matemáticas. Precisa ser compilado para CSS antes de ser interpretado pelos navegadores. O Sass é valioso para o front-end, melhorando a escrita e organização do código CSS, resultando em um fluxo de trabalho mais eficiente e produtivo.
 
-- Para mais informações acesse o site oficial da ferramenta [SASS](https://sass-lang.com/)
+- Para mais informações, acesse o [site oficial do SASS](https://sass-lang.com/)
 
 <br>
 
@@ -623,22 +595,25 @@ Neste projeto, tive a oportunidade de atuar em uma nova posição desde o meu in
 
 ## Objetivo do projeto:
 
-Automatizar a jornada de download de arquivos, armazenados em uma plataforma de vídeo, efetuando essa transferência para a nuvem, através do desenvolvimento de um serviço tipo aplicativo, tendo como funcionalidade junto ao usuário apenas um menu de configuração, que terá os parâmetros necessários para que o serviço de download seja executado. processar automaticamente, gerando alertas caso ocorram erros de processamento. Salvar metadados de arquivos para construção de dashboard de monitoramento da execução do serviço e posterior análise de resultados e indicadores (ex.: quantidade de arquivos transferidos, quantidade de bytes transferidos, tempo de transferência, etc.).
 
+Automatizamos a jornada de download de arquivos armazenados em uma plataforma de vídeo, realizando a transferência para a nuvem por meio do desenvolvimento de um serviço tipo aplicativo. A única interação do usuário com o serviço é por meio de um menu de configuração, que contém os parâmetros necessários para a execução do download. O serviço processa automaticamente os arquivos, gerando alertas em caso de erros de processamento.
+Além disso, o sistema salva os metadados dos arquivos para a construção de um dashboard de monitoramento da execução do serviço. Isso possibilita a análise posterior de resultados e indicadores, como a quantidade de arquivos transferidos, a quantidade de bytes transferidos, o tempo de transferência, entre outros.
+
+<br>
 
 ## Tecnologias Utilizadas:
 
-### `Vue.js ` 
+### ` Vue.js ` 
 
-Vue.js é amplamente utilizado em aplicações web para o desenvolvimento do front-end. Sua simplicidade, flexibilidade e eficiência o tornam uma escolha popular para a criação de interfaces de usuário interativas e responsivas.
+Vue.js é uma escolha popular no desenvolvimento front-end devido à sua simplicidade, flexibilidade e eficiência para criar interfaces de usuário interativas e responsivas.
 
-No contexto do front-end, o Vue.js facilita a criação de componentes reutilizáveis que podem ser compostos para formar interfaces complexas. Isso promove uma estrutura organizada e modular, permitindo aos desenvolvedores dividir o código em partes menores e mais gerenciáveis. Essa abordagem facilita a manutenção do código, melhorando a legibilidade e reusabilidade.
+No front-end, o Vue.js simplifica a criação de componentes reutilizáveis, promovendo uma estrutura organizada e modular. Isso facilita a manutenção, aumentando a legibilidade e reusabilidade do código.
 
-No que diz respeito à criação de estrutura de requisições, o Vue.js é uma biblioteca focada principalmente no desenvolvimento de interfaces de usuário. Embora o Vue.js possa lidar com solicitações HTTP por meio de bibliotecas de terceiros, como o Axios, a criação de uma estrutura completa de requisições vai além do escopo principal do Vue.js. Nesse caso, é comum combinar o Vue.js com outras bibliotecas ou frameworks específicos para manipulação de requisições, como o Vue Resource ou o Vuex, dependendo dos requisitos do projeto.
+Embora o Vue.js possa lidar com solicitações HTTP usando bibliotecas como o Axios, para estruturas completas de requisições, é comum combinar o Vue.js com outras bibliotecas específicas, como Vue Resource ou Vuex, dependendo dos requisitos do projeto.
 
-O Vue.js oferece uma base sólida para o desenvolvimento de interfaces de usuário eficientes e responsivas. 
+O Vue.js oferece uma base sólida para desenvolver interfaces de usuário eficientes e responsivas.
 
-- Para mais informações acesse o site oficial da ferramenta [Vue.js](https://vuejs.org/)
+- Para mais informações, acesse o [site oficial do Vue.js](https://vuejs.org/)
 
 <br>
 
@@ -750,7 +725,7 @@ Neste projeto, tive como um grande desafio a organização de tempo. Usamos muit
 <br>
 
 
-# Projeto 5: 2º Semestre de 2023
+# Projeto 6: 2º Semestre de 2023
 
 ### Parceiro acadêmico: <a href="https://visionaespacial.com/">Visiona</a>
 
@@ -765,6 +740,7 @@ Neste projeto, tive como um grande desafio a organização de tempo. Usamos muit
 
 O Proagro é um programa governamental que financia atividades agrícolas de pequenos e médios produtores no Brasil. Ao participar, o produtor precisa fornecer detalhes sobre sua atividade agrícola e localização das áreas cultivadas. Esses dados são armazenados em tabelas e em um banco de dados. Além disso, informações sobre técnicas de cultivo, tipos de plantas, potencial de produção, dados de plantio e colheita são essenciais. O uso do sensoriamento remoto tem sido eficaz para o monitoramento das atividades agrícolas, e os dados do Proagro são valiosos para a criação de modelos de inteligência artificial baseados em informações obtidas por satélite. O desafio é apresentar esses dados de forma clara e intuitiva em um sistema de informação geográfica, combinando informações sobre as operações agrícolas e dados de sensoriamento remoto.
 
+<br>
 
 ## Tecnologias Utilizadas:
 
@@ -774,25 +750,25 @@ Python é uma linguagem de programação versátil e poderosa. Sua sintaxe clara
 
 <br>
 
-### `Flask` 
+### `Flask ` 
 
 Flask é um framework web minimalista para Python, o que significa que oferece o mínimo necessário para criar aplicações web. Sua simplicidade e extensibilidade permitem que desenvolvedores construam aplicações web de forma rápida e eficiente. O Flask segue a filosofia de "faça você mesmo" (do inglês, "do it yourself") e é bastante flexível, permitindo a integração de outras bibliotecas e ferramentas conforme a necessidade do projeto.
 
 <br>
 
-### `Postgres` 
+### `Postgres ` 
 
 O PostgreSQL, ou simplesmente Postgres, é um sistema de gerenciamento de banco de dados relacional (RDBMS) robusto e confiável. É conhecido por sua conformidade com os padrões SQL, suporte a transações ACID (Atomicidade, Consistência, Isolamento, Durabilidade) e por oferecer recursos avançados, como chaves estrangeiras, gatilhos, procedimentos armazenados e replicação. É amplamente utilizado em aplicações que requerem confiabilidade e integridade dos dados.
 
 <br>
 
-### `Postgis` 
+### `Postgis ` 
 
 O PostGIS é uma extensão espacial para o PostgreSQL, permitindo que o banco de dados lide com dados geoespaciais. Ele adiciona suporte para objetos geográficos e permite consultas e análises espaciais avançadas. Com o PostGIS, é possível armazenar informações sobre localização, realizar cálculos de distância, consultar áreas específicas e realizar análises geoespaciais complexas.
 
 <br>
 
-### `MongoDB`
+### `MongoDB `
 
 MongoDB é um banco de dados NoSQL orientado a documentos. Ele difere dos bancos de dados relacionais ao armazenar dados em documentos flexíveis (geralmente em formato JSON), em vez de tabelas. Isso permite uma escalabilidade mais simples e uma maior flexibilidade para lidar com dados não estruturados ou semiestruturados. O MongoDB é frequentemente utilizado em aplicações web e móveis, especialmente em casos onde a estrutura dos dados pode variar e crescer ao longo do tempo. Sua capacidade de replicação e distribuição também o torna adequado para ambientes de grande escala.
 
