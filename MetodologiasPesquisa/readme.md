@@ -145,8 +145,29 @@ Essas linhas de código definem estilos para componentes React Native. O estilo 
 
 ## Aprendizados efetivos:
 
-Como primeiro projeto da faculdade, como tive contato com novas tecnologias que nunca tinha tido antes, houve muito espaço para aprendizado. Além do primeiro contato com a metodologia ágil Scrum, pude aprender bastante sobre como estruturação de projetos, utilização de versionamento de código e fluxo de desenvolvimento de projeto. Além disso, pude melhorar minhas Soft Skills, a partir de conversas com o cliente interno e trabalho em equipe.
-Além disso, focando em linguagens de programação, tive espaço para desenvolver habilidades de lógica de programação, endereçamento de telas e criação de funções a partir do JavaScript e ReactNative.
+Como primeiro projeto da faculdade, tive a oportunidade de explorar novas tecnologias, proporcionando um amplo espaço para aprendizado. Algumas das principais experiências incluíram:
+
+#### Soft Skills Desenvolvidas:
+
+- **Comunicação:**
+  - Melhorei minhas habilidades de comunicação através do contato com o cliente interno, entendendo suas necessidades e requisitos.
+  - Colaborei efetivamente em equipe, contribuindo para o ambiente de trabalho colaborativo.
+
+- **Trabalho em Equipe:**
+  - Participando do desenvolvimento do projeto, aprimorei minhas habilidades de trabalho em equipe, essenciais para o sucesso do projeto.
+
+#### Hard Skills Desenvolvidas:
+
+| Hard Skill                           | Nota (0-10) |
+|--------------------------------------|-------------|
+| Metodologia Ágil - Scrum             | 8           |
+| Estruturação de Projetos             | 7           |
+| Versionamento de Código              | 8           |
+| Fluxo de Desenvolvimento de Projeto   | 7           |
+| Lógica de Programação                | 9           |
+| Endereçamento de Telas (ReactNative) | 8           |
+| Criação de Funções (JavaScript)      | 9           |
+
 
 
 <br>
@@ -274,9 +295,44 @@ Essas linhas de código estão dentro de um bloco catch, que trata exceções do
 
 ## Aprendizados efetivos:
 
-Neste projeto, tive a oportunidade de atuar como _PO (Product Owner)_ do projeto, tendo oportunidade de desenvolver habilidades de Soft Skills, principalmente de comunicação para definição de planejamento de entregas e organização de equipe. 
-Como desenvolvedor focado em back-end, pude focar em tarefas voltadas ao preparo de ambiente para utiização das tecnologias citadas acima, estruturação de repositórios e pastas para utilização do Java. Também o desenvolvimento de funções em Java, o que agregou muito para o meu entendimento de como algoritmos de programação funcionam e a importância de ter uma estrutura e regras de acesso muito bem definidas para que a aplicação funcione da forma robusta.
-Voltado para conhecimentos de DBA (Database Administrator), pude desenvolver habilidades de acesso a banco de dados utilizando strings de conexão, realizar inserções e consultas dos dados de forma segura.
+#### Soft Skills Desenvolvidas:
+
+Durante o projeto, desenvolvi habilidades significativas em soft skills, destacando especialmente:
+
+1. **Comunicação:**
+   - Interagindo como _Product Owner_, aprimorei minhas habilidades de comunicação para facilitar a definição do planejamento de entregas.
+   - Organizei eficientemente a equipe por meio de comunicação clara, garantindo um entendimento comum dos objetivos.
+
+2. **Trabalho em Equipe:**
+   - Colaborei na organização da equipe, promovendo um ambiente cooperativo para alcançar metas comuns.
+
+3. **Planejamento:**
+   - Contribuí ativamente para a definição de planejamentos eficazes, alinhando as metas do projeto com as expectativas da equipe.
+
+#### Hard Skills Desenvolvidas:
+
+| Hard Skill                    | Nota (0-10) |
+|-------------------------------|-------------|
+| Desenvolvimento Java           | 8           |
+| Estruturação de Repositórios   | 9           |
+| Algoritmos de Programação      | 8           |
+| Strings de Conexão (DBA)       | 7           |
+| Acesso a Banco de Dados       | 8           |
+
+1. **Desenvolvimento Java:**
+   - Foco em tarefas de back-end, desenvolvimento de funções em Java, contribuindo para uma compreensão mais profunda de algoritmos de programação.
+
+2. **Estruturação de Repositórios:**
+   - Dedicação à organização eficiente de repositórios e pastas, facilitando a utilização de Java.
+
+3. **Algoritmos de Programação:**
+   - Aprofundamento no entendimento de algoritmos, essenciais para o desenvolvimento robusto.
+
+4. **Strings de Conexão (DBA):**
+   - Habilidades aprimoradas na manipulação de strings de conexão para acesso seguro a banco de dados.
+
+5. **Acesso a Banco de Dados:**
+   - Desenvolvimento de habilidades como DBA, realizando inserções e consultas de dados de forma segura.
 
 <br>
 
@@ -396,7 +452,29 @@ Durante o projeto também atuei na camada de troca de dados, utilizando JavaScri
 
 ## Aprendizados efetivos:
 
-Durante a segunda sprint tivemos que fazer uma reestruturação na equipe, onde tive participação fundamental na organização da equipe. Assumindo uma nova função como _PO (Product Owner)_ da equipe até a finalização do projeto, onde pude colocar em prática as ferramentas das metodologias ágeis aprendidas em aula, seguindo o SCRUM. 
+Durante a segunda sprint, experimentei uma reestruturação na equipe, desempenhando um papel fundamental na organização. Assumi uma nova função como _PO (Product Owner)_ da equipe até a conclusão do projeto, aplicando práticas das metodologias ágeis aprendidas em sala de aula, seguindo o SCRUM.
+
+#### Soft Skills Desenvolvidas:
+
+- **Liderança:**
+  - Na reestruturação da equipe, exerci uma liderança efetiva para garantir uma transição suave.
+
+- **Adaptabilidade:**
+  - Assumir o papel de _Product Owner_ demandou rápida adaptação às novas responsabilidades e demandas do projeto.
+
+- **Comunicação:**
+  - Comuniquei eficientemente as necessidades e objetivos da equipe, facilitando o entendimento e a colaboração.
+
+- **Gestão de Equipe:**
+  - Desenvolvi habilidades de gestão ao liderar a equipe até a conclusão do projeto.
+
+#### Hard Skills Desenvolvidas:
+
+| Hard Skill                           | Nota (0-10) |
+|--------------------------------------|-------------|
+| Metodologias Ágeis (SCRUM)           | 9           |
+| Gestão de Projetos (Product Owner)   | 8           |
+
 
 <br>
 
@@ -576,7 +654,32 @@ Essas linhas de código definem estilos CSS para um ícone de chat flutuante no 
 
 ## Aprendizados efetivos:
 
-Neste projeto, tive a oportunidade de atuar em uma nova posição desde o meu ingresso na Fatec, sendo desenvolvedor focado em front-end e requisições de dados. Para isso, utilizamos como ferramenta principal o Vue.js, uma tecnologia nova para mim, que ampliou minha forma de pensar. Com ela, pude realizar tarefas variadas, desde o desenvolvimento de interfaces e design de telas até a criação de uma estrutura que permitiu a interação e a troca de informações de maneira eficiente em conjunto com o back-end. Essa experiência contribuiu para o aprimoramento das minhas habilidades e consolidou meu conhecimento nesse campo da programação.
+Neste projeto da Fatec, atuei como desenvolvedor especializado em front-end e requisições de dados, utilizando Vue.js como principal ferramenta. Essa experiência ampliou minha perspectiva, permitindo-me realizar diversas tarefas, desde o design de interfaces até a criação de uma estrutura eficiente para interação com o back-end. Este aprendizado significativo não apenas aprimorou minhas habilidades, mas também consolidou meu conhecimento na programação, representando um avanço valioso em minha jornada profissional.
+
+#### Soft Skills Desenvolvidas:
+
+- **Adaptabilidade:**
+  - Adaptei-me rapidamente ao ambiente de trabalho e à nova tecnologia (Vue.js), demonstrando flexibilidade.
+
+- **Colaboração:**
+  - Colaborei efetivamente com a equipe de back-end, facilitando uma integração harmoniosa entre as camadas front-end e back-end.
+
+- **Resolução de Problemas:**
+  - Enfrentei desafios na criação da estrutura de interação e troca de informações, desenvolvendo habilidades sólidas de resolução de problemas.
+
+- **Aprendizado Contínuo:**
+  - Demonstrei disposição para aprender e me aprimorar, especialmente ao lidar com uma tecnologia nova.
+
+#### Hard Skills Desenvolvidas:
+
+| Hard Skill                    | Nota (0-10) |
+|-------------------------------|-------------|
+| Vue.js                        | 9           |
+| Desenvolvimento Front-End     | 8           |
+| Requisições de Dados          | 8           |
+| Design de Interfaces          | 7           |
+| Estruturação de Informações   | 8           |
+
 
 <br>
 
@@ -718,7 +821,30 @@ describe('toHome', () => {
 
 ## Aprendizados efetivos:
 
-Neste projeto, tive como um grande desafio a organização de tempo. Usamos muitas tecnologias que até então eram novas para o time, e como Scrum Master tive que manejar a equipe para que priorizasse as tarefas corretas e que pudesse se desenvolver. Além disso, também instrui a equipe para que conseguíssemos utilizar as metologias de orquestação junto ao CI/CD com unit-tests, garantindo a qualidade e durabilidade do software que estávamos desenvolvendo. Montei toda parte de pipeline de execução de códigos utilizando o GithubActions, junto com validações de qualidade e seguranã de software do próprio Github.
+#### Soft Skills Desenvolvidas:
+
+- **Gestão do Tempo:**
+   - Enfrentei o desafio da organização do tempo, priorizando tarefas essenciais para o progresso do projeto.
+
+- **Liderança:**
+   - Como Scrum Master, liderei a equipe, guiando-a na adoção de tecnologias novas e na priorização eficiente de tarefas.
+
+- **Comunicação Eficaz:**
+   - Instruí a equipe, assegurando que compreendessem as metodologias de orquestração, CI/CD e unit-tests, promovendo uma comunicação clara e eficaz.
+
+- **Orientação e Instrução:**
+   - Instruí a equipe na implementação de metodologias de orquestração, garantindo o uso adequado de práticas como CI/CD e unit-tests.
+
+#### Hard Skills Desenvolvidas:
+
+| Hard Skill                                | Nota (0-10) |
+|-------------------------------------------|-------------|
+| Gestão de Tempo                           | 9           |
+| Metodologias de Orquestração (CI/CD)      | 8           |
+| GitHub Actions                            | 9           |
+| Pipeline de Execução de Códigos           | 8           |
+| Validações de Qualidade e Segurança      | 8           |
+
 
 <br>
 
