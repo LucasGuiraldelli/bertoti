@@ -931,5 +931,63 @@ def login(email_in=None, senha_in=None):
 <br>
 
 </details>
+<details><summary>Função utilizada para criação de modelo de previsão dos indices:</summary> 
+	
+```
+previsoes = []
 
+for ref_bacen in dados['ref_bacen'].unique():
+    dados_ref = dados[dados['ref_bacen'] == ref_bacen]['indice']
+    print(dados_ref)
 
+    modelo = SARIMAX(dados_ref, order=(1, 1, 1), seasonal_order=(1, 1, 1, 12))
+    resultado = modelo.fit()
+
+    # Obter os próximos 6 passos de previsão a partir do próximo mês após a última data nos dados
+    ultima_data = dados_ref.index[-1]
+    proximas_datas_previsao = pd.date_range(start=ultima_data, periods=7, freq='M')[1:]
+
+    previsao = resultado.get_forecast(steps=6)
+    previsao_mean = previsao.predicted_mean
+    
+    previsao_df = pd.DataFrame({
+        'date': proximas_datas_previsao,
+        'ref_bacen': ref_bacen,
+        'previsao': previsao_mean,
+    })
+
+    previsoes.append(previsao_df)
+
+previsoes_df = pd.concat(previsoes)
+```
+
+</details>
+
+<br> 
+
+## Aprendizados efetivos:
+
+# Aprendizados Efetivos de Projeto
+
+#### Soft Skills Desenvolvidas:
+
+Durante este projeto, algumas soft skills foram desenvolvidas e aplicadas:
+
+- **Colaboração:**
+   - Trabalhei diretamente no back-end, colaborando efetivamente com a equipe para atingir os objetivos do projeto.
+
+- **Comunicação Efetiva:**
+   - Facilitei a comunicação entre as equipes de desenvolvimento, contribuindo para a fluidez das tarefas e compreensão mútua.
+
+- **Adaptabilidade:**
+   - Ao aprender uma nova tecnologia (MongoDB), demonstrei adaptabilidade ao ambiente de desenvolvimento.
+
+#### Hard Skills Desenvolvidas:
+
+| Hard Skill                          | Nota (0-10) |
+|-------------------------------------|-------------|
+| Desenvolvimento em Flask            | 9           |
+| Liberação de Login com JWT          | 8           |
+| Desenvolvimento de Modelos de ML    | 7           |
+| MongoDB                             | 8           |
+| Integração Python e Flask           | 9           |
